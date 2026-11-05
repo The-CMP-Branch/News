@@ -12,7 +12,7 @@ Andrew Youll has released Groove, a music creation application for RISC OS 5 tha
 
 Groove enables users to drag pre-made loops into songs, draw drum beats on a grid, and sketch notes using a piano roll interface. The application includes a musical typing feature that turns the computer keyboard into a playable piano, supporting chord input. A recording mode provides a bar of count-in before capturing played notes, automatically quantizing them to the nearest sixteenth note.
 
-![Groove music studio interface showing loops being arranged]({{ '/assets/images/groove-loops-dropped.png' | relative_url }}){: style="max-width: 100%; height: auto; display: block; margin: 1.5em 0;"}
+[![Groove music studio interface showing loops being arranged]({{ '/assets/images/groove-loops-dropped.png' | relative_url }}){: width="1600" height="330" loading="lazy"}]({{ '/assets/images/groove-loops-dropped.png' | relative_url }})
 
 *Groove's interface showing ready-made loops being arranged into a song. Screenshot from the [Groove user guide](https://raw.githubusercontent.com/adyoull/riscos-groove/v0.2/docs/guide/images/loops-dropped.png).*
 

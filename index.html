@@ -7,23 +7,32 @@ title: Home
     {% if site.posts.size > 0 %}
         {% for post in site.posts %}
         <article class="news-item">
-            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-            <div class="post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                {% if post.tags and post.tags.size > 0 %}
-                <span class="tags">
-                    {% for tag in post.tags %}
-                    <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </span>
-                {% endif %}
+            <div class="news-item-header">
+                <div class="news-item-dots">
+                    <span class="window-dot dot-green"></span>
+                    <span class="window-dot dot-navy"></span>
+                    <span class="window-dot dot-grey"></span>
+                </div>
             </div>
-            {% if post.summary %}
-            <p class="summary">{{ post.summary }}</p>
-            {% else %}
-            <p class="summary">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-            {% endif %}
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            <div class="news-item-content">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <div class="post-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                    {% if post.tags and post.tags.size > 0 %}
+                    <span class="tags">
+                        {% for tag in post.tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </span>
+                    {% endif %}
+                </div>
+                {% if post.summary %}
+                <p class="summary">{{ post.summary }}</p>
+                {% else %}
+                <p class="summary">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                {% endif %}
+                <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            </div>
         </article>
         {% endfor %}
     {% else %}

@@ -2,6 +2,16 @@
 
 Thank you for contributing to the RISC OS community news site! This guide explains how to submit articles and what to expect during the review process.
 
+## Suggesting News (no Git needed)
+
+The easiest way to contribute is to [open a news suggestion issue](https://github.com/The-CMP-Branch/News/issues/new?template=news-suggestion.yml). Describe the news and link to the source, and we'll write the article. Suggestion issues are titled `[News]: ...` and labelled `news-suggestion`.
+
+To report a mistake in a published article, [open a correction issue](https://github.com/The-CMP-Branch/News/issues/new?template=correction.yml) (titled `[Correction]: ...`, labelled `correction`).
+
+When a pull request writes up a suggestion or fixes a correction, include `Closes #<issue number>` in the PR description so the issue closes when it merges.
+
+The rest of this guide is for people who want to write and submit articles themselves via pull request.
+
 ## How to Contribute
 
 ### Types of Contributions Welcome
@@ -9,7 +19,7 @@ Thank you for contributing to the RISC OS community news site! This guide explai
 - **News articles** about RISC OS software, hardware, events, or community developments
 - **Announcements** of new releases or updates
 - **Event coverage** for meetups, shows, or online gatherings
-- **Corrections** to existing articles (via PR)
+- **Corrections** to existing articles (via issue or PR)
 - **Site improvements** (bug fixes, styling, features)
 
 ### What We Don't Accept

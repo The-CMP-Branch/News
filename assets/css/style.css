@@ -46,11 +46,28 @@ header {
 .logo-link {
     display: block;
     flex-shrink: 0;
+    max-width: 100%;
 }
 
 .site-logo {
+    display: block;
+}
+
+.site-logo img {
     height: 80px;
     width: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.site-logo-icon {
+    display: none;
+}
+
+.site-logo-icon img {
+    height: 80px;
+    width: auto;
+    display: block;
 }
 
 .site-title-area {
@@ -441,8 +458,9 @@ footer a:hover {
         gap: 1rem;
     }
     
-    .site-logo {
+    .site-logo img {
         height: 60px;
+        max-width: 100%;
     }
     
     header h1 {
@@ -473,6 +491,19 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
+    .site-header-content {
+        align-items: center;
+    }
+    
+    .site-logo img {
+        height: 50px;
+        max-width: 100%;
+    }
+    
+    .logo-link {
+        max-width: 100%;
+    }
+    
     .news-item-content {
         padding: 1rem;
     }
@@ -481,5 +512,31 @@ footer a:hover {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.5rem;
+    }
+    
+    nav a {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small screens - use icon-only logo */
+@media (max-width: 380px) {
+    .site-logo {
+        display: none;
+    }
+    
+    .site-logo-icon {
+        display: block;
+    }
+    
+    .site-logo-icon img {
+        height: 60px;
+        width: auto;
+    }
+    
+    .site-title-area {
+        text-align: center;
+        width: 100%;
     }
 }

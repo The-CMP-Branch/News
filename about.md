@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+<div class="about-content" markdown="1">
+
 # About The CMP Branch — RISC OS News
 
 This site curates news and updates from the RISC OS community, bringing together announcements, software releases, hardware developments, and community events in one place.
@@ -25,3 +27,5 @@ Want to suggest a news item? See our [contributing guidelines]({{ '/CONTRIBUTING
 ## Contact
 
 This site is maintained by The CMP Branch organization. For questions or concerns, please open an issue on our [GitHub repository](https://github.com/The-CMP-Branch/News).
+
+</div>

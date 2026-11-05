@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Window background -->
+  <rect x="6" y="8" width="52" height="48" rx="5" fill="#E8E8E8"/>
+  
+  <!-- Title bar -->
+  <rect x="6" y="8" width="52" height="9" rx="5" fill="#F5EFE0"/>
+  <rect x="6" y="12" width="52" height="5" fill="#F5EFE0"/>
+  
+  <!-- Window dots -->
+  <circle cx="13" cy="12.5" r="2.5" fill="#00A651"/>
+  <circle cx="21" cy="12.5" r="2.5" fill="#1B365D"/>
+  <circle cx="29" cy="12.5" r="2.5" fill="#B0B0B0"/>
+  
+  <!-- Mouse shape -->
+  <ellipse cx="32" cy="35" rx="14" ry="17" fill="#1B365D"/>
+  
+  <!-- Mouse eyes -->
+  <circle cx="27.5" cy="32" r="2" fill="#00A651"/>
+  <circle cx="36.5" cy="32" r="2" fill="#00A651"/>
+</svg>

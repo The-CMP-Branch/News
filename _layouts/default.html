@@ -17,23 +17,23 @@
         <div class="container">
             <div class="site-header-content">
                 <a href="{{ '/' | relative_url }}" class="logo-link">
-                    <picture class="site-logo">
+                    <picture class="site-logo-full">
                         <source srcset="{{ '/assets/logo-full.webp' | relative_url }} 1x, {{ '/assets/logo-full@2x.webp' | relative_url }} 2x" type="image/webp">
-                        <img src="{{ '/assets/logo-full.png' | relative_url }}" srcset="{{ '/assets/logo-full@2x.png' | relative_url }} 2x" alt="The CMP Branch">
+                        <img src="{{ '/assets/logo-full.png' | relative_url }}" srcset="{{ '/assets/logo-full@2x.png' | relative_url }} 2x" alt="The CMP Branch — RISC OS News">
                     </picture>
-                    <picture class="site-logo-icon">
-                        <source srcset="{{ '/assets/logo-icon.webp' | relative_url }} 1x, {{ '/assets/logo-icon@2x.webp' | relative_url }} 2x" type="image/webp">
-                        <img src="{{ '/assets/logo-icon.png' | relative_url }}" srcset="{{ '/assets/logo-icon@2x.png' | relative_url }} 2x" alt="The CMP Branch">
-                    </picture>
+                    <div class="site-logo-compact">
+                        <picture class="site-logo-icon">
+                            <source srcset="{{ '/assets/logo-icon.webp' | relative_url }} 1x, {{ '/assets/logo-icon@2x.webp' | relative_url }} 2x" type="image/webp">
+                            <img src="{{ '/assets/logo-icon.png' | relative_url }}" srcset="{{ '/assets/logo-icon@2x.png' | relative_url }} 2x" alt="The CMP Branch">
+                        </picture>
+                        <span class="site-title-compact">The CMP Branch</span>
+                    </div>
                 </a>
-                <div class="site-title-area">
-                    <p class="tagline">{{ site.description }}</p>
-                </div>
+                <nav>
+                    <a href="{{ '/' | relative_url }}">Home</a>
+                    <a href="{{ '/about' | relative_url }}">About</a>
+                </nav>
             </div>
-            <nav>
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/about' | relative_url }}">About</a>
-            </nav>
         </div>
     </header>
     

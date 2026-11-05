@@ -28,9 +28,9 @@ body {
 
 /* Header - inspired by RISC OS icon bar */
 header {
-    background-color: #F5EFE0;
+    background-color: #ffffff;
     color: #1B365D;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
     margin-bottom: 2rem;
     border-bottom: 3px solid #00A651;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -39,8 +39,9 @@ header {
 .site-header-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 2rem;
-    margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .logo-link {
@@ -49,50 +50,38 @@ header {
     max-width: 100%;
 }
 
-.site-logo {
+.site-logo-full {
     display: block;
 }
 
-.site-logo img {
-    height: 80px;
+.site-logo-full img {
+    height: 64px;
     width: auto;
     max-width: 100%;
     display: block;
 }
 
-.site-logo-icon {
+.site-logo-compact {
     display: none;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.site-logo-icon {
+    display: block;
 }
 
 .site-logo-icon img {
-    height: 80px;
+    height: 48px;
     width: auto;
     display: block;
 }
 
-.site-title-area {
-    flex-grow: 1;
-}
-
-header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.25rem;
+.site-title-compact {
+    font-size: 1.25rem;
     font-weight: 700;
-}
-
-header h1 a {
     color: #1B365D;
-    text-decoration: none;
-}
-
-header h1 a:hover {
-    color: #00A651;
-}
-
-header .tagline {
-    color: #1B365D;
-    opacity: 0.8;
-    font-size: 0.95rem;
+    white-space: nowrap;
 }
 
 nav {
@@ -454,17 +443,24 @@ footer a:hover {
 @media (max-width: 768px) {
     .site-header-content {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
     }
     
-    .site-logo img {
-        height: 60px;
+    .site-logo-full img {
+        height: 56px;
         max-width: 100%;
     }
     
-    header h1 {
-        font-size: 1.5rem;
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    nav a {
+        flex: 1;
+        text-align: center;
+        min-width: 100px;
     }
     
     main {
@@ -478,30 +474,11 @@ footer a:hover {
     .news-item h2 {
         font-size: 1.25rem;
     }
-    
-    nav {
-        width: 100%;
-    }
-    
-    nav a {
-        flex: 1;
-        text-align: center;
-        min-width: 100px;
-    }
 }
 
 @media (max-width: 480px) {
-    .site-header-content {
-        align-items: center;
-    }
-    
-    .site-logo img {
-        height: 50px;
-        max-width: 100%;
-    }
-    
-    .logo-link {
-        max-width: 100%;
+    .site-logo-full img {
+        height: 48px;
     }
     
     .news-item-content {
@@ -520,23 +497,17 @@ footer a:hover {
     }
 }
 
-/* Extra small screens - use icon-only logo */
-@media (max-width: 380px) {
-    .site-logo {
+/* Extra small screens - use compact logo with icon and text */
+@media (max-width: 399px) {
+    .site-logo-full {
         display: none;
     }
     
-    .site-logo-icon {
-        display: block;
+    .site-logo-compact {
+        display: flex;
     }
     
-    .site-logo-icon img {
-        height: 60px;
-        width: auto;
-    }
-    
-    .site-title-area {
-        text-align: center;
-        width: 100%;
+    .site-header-content {
+        gap: 0.75rem;
     }
 }

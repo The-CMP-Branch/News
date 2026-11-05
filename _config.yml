@@ -20,6 +20,11 @@ exclude:
   - Gemfile.lock
   - CONTRIBUTING.md
   - vendor/
+  - README.md
+  - screenshots/
+  - assets/*.old
+  - assets/logo-reference.jpg
+  - assets/logo-approved.jpg
 
 # Default front matter
 defaults:

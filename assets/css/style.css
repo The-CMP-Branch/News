@@ -456,9 +456,23 @@ body > footer a:hover {
     margin-bottom: 1rem;
 }
 
+.about-content p,
+.about-content ul {
+    margin-bottom: 1rem;
+}
+
+.about-content ul {
+    margin-left: 1.5rem;
+}
+
 .about-content a {
     color: #00A651;
     font-weight: 500;
+}
+
+.about-content a.btn {
+    color: white;
+    text-decoration: none;
 }
 
 .about-content a:hover {

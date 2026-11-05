@@ -1,0 +1,65 @@
+name: Suggest a news item
+description: Tell us about RISC OS news we should cover — a release, hardware, event or community announcement.
+title: "[News]: "
+labels: ["news-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the RISC OS community informed. You don't need to write the article —
+        just point us at the news and we'll take it from there. Suggestions must be RISC OS related
+        and come from a public, verifiable source.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's the news?
+      description: A sentence or two describing what happened.
+      placeholder: e.g. Version 2.0 of ExampleApp has been released with support for ...
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: Where was this announced? A forum post, mailing list, product page or press release.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Announcement date
+      description: When was it announced, if you know?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Software
+        - Hardware
+        - Community
+        - Events
+        - Development
+        - Documentation
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Extra links, screenshots, or context that would help.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: This is related to RISC OS.
+          required: true
+        - label: I've checked the site and open issues and this hasn't already been covered or suggested.
+          required: false

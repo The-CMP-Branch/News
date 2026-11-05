@@ -1,0 +1,25 @@
+name: Report a correction
+description: Something in a published article is wrong or out of date.
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Article link
+      placeholder: https://the-cmp-branch.github.io/News/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source
+      description: A link that confirms the correct information, if available.
+    validations:
+      required: false

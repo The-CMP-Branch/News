@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: "About The CMP Branch: a community-run RISC OS news site, its editorial policy, and how to suggest news or subscribe to the feed."
 ---
 
 <div class="about-content" markdown="1">

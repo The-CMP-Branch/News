@@ -6,6 +6,8 @@ summary: "RISC OS Open releases updated network file sharing that reconnects RIS
 tags: [software, networking]
 source_url: "https://www.riscosopen.org/news/articles/2026/10/22/two-samba-or-not-two-samba-smb2-lands-in-the-nightly-builds"
 source_name: "RISC OS Open"
+image: /assets/images/lanmanfs-win11-mount.png
+image_alt: "LanManFS mounting a Windows 11 share"
 ---
 
 RISC OS Open has released a beta version of LanManFS with support for SMB2 and SMB3 protocols, addressing years of connectivity problems with modern networks. The update allows RISC OS computers to once again access file shares on Windows, macOS, Linux, and network storage devices.

@@ -95,6 +95,8 @@ Links work too: [RISC OS](https://www.riscosopen.org/)
 | `tags` | Optional | List of tags like `[software, community]` |
 | `source_url` | When applicable | Link to the original article/announcement |
 | `source_name` | When applicable | Name of the source website |
+| `image` | Optional | Image path for social share previews (falls back to the site logo) |
+| `image_alt` | With `image` | Short description of the share image |
 
 ### Content Guidelines
 

@@ -126,6 +126,8 @@ git push origin add-article-descriptive-name
 | `tags` | Optional | Use existing tags when possible: `software`, `hardware`, `community`, `events`, `development` |
 | `source_url` | When sharing news | Link to original announcement/article |
 | `source_name` | When sharing news | Name of the source site |
+| `image` | Optional | Path to an image used in the article (e.g. `/assets/images/example.png`), used for social share previews. Falls back to the site logo |
+| `image_alt` | With `image` | Short description of the share image |
 
 ### Content Best Practices
 

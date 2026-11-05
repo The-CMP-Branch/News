@@ -6,6 +6,8 @@ summary: "New music application enables RISC OS users to create songs using loop
 tags: [software, multimedia]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20638"
 source_name: "RISC OS Open Forums"
+image: /assets/images/groove-loops-dropped.png
+image_alt: "Groove music studio interface showing loops being arranged"
 ---
 
 Andrew Youll has released Groove, a music creation application for RISC OS 5 that allows users to compose songs without requiring knowledge of traditional music notation. The software provides an accessible approach to music making through ready-made loops, visual drum grids, and piano roll editing.

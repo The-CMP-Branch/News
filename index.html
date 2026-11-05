@@ -4,6 +4,8 @@ title: Home
 body_class: home
 ---
 
+{% include tag-icons.svg %}
+
 <section class="news-list">
     {% if site.posts.size > 0 %}
         {% for post in site.posts %}
@@ -32,7 +34,16 @@ body_class: home
                 {% else %}
                 <p class="summary">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
                 {% endif %}
-                <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+                {% assign icon = nil %}
+                {% for tag in post.tags %}
+                    {% if site.data.tag_icons[tag] %}{% assign icon = site.data.tag_icons[tag] %}{% break %}{% endif %}
+                {% endfor %}
+                <div class="news-item-footer">
+                    <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+                    {% if icon %}
+                    <svg class="tag-icon" aria-hidden="true" focusable="false"><use href="#tag-icon-{{ icon }}"></use></svg>
+                    {% endif %}
+                </div>
             </div>
         </article>
         {% endfor %}

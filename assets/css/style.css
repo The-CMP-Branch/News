@@ -229,8 +229,35 @@ main.container {
     line-height: 1.6;
 }
 
-.read-more {
+.news-item-footer {
     margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.tag-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    color: #1B365D;
+    opacity: 0.18;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.news-item:hover .tag-icon {
+    color: #00A651;
+    opacity: 0.6;
+}
+
+.read-more {
     color: #00A651;
     text-decoration: none;
     font-weight: 600;

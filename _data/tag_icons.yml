@@ -1,0 +1,13 @@
+# Area tags that get an icon on news cards. A card shows the icon for its
+# first tag listed here; generic tags such as "software" are deliberately
+# absent. Values are symbol ids in _includes/tag-icons.svg.
+email: email
+networking: networking
+multimedia: multimedia
+mapping: mapping
+security: security
+development: development
+community: community
+hardware: hardware
+events: events
+documentation: documentation

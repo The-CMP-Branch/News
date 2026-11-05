@@ -58,7 +58,7 @@ header {
 }
 
 .site-logo-full img {
-    height: 135px;
+    height: 220px;
     width: auto;
     max-width: 100%;
     display: block;
@@ -130,6 +130,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* News items styled as RISC OS windows */
@@ -447,6 +449,12 @@ footer a:hover {
 }
 
 /* Responsive */
+@media (max-width: 1023px) {
+    .site-logo-full img {
+        height: 135px;
+    }
+}
+
 @media (max-width: 768px) {
     .site-logo-full img {
         height: 110px;

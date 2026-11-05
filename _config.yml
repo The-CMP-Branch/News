@@ -8,6 +8,9 @@ baseurl: "/News"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+plugins:
+  - jekyll-feed
+
 # Collections
 collections:
   posts:

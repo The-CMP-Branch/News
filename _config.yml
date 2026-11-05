@@ -1,0 +1,30 @@
+# Site settings
+title: "The CMP Branch — RISC OS News"
+description: "Community news and updates from the RISC OS world"
+url: "https://the-cmp-branch.github.io"
+baseurl: "/News"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CONTRIBUTING.md
+  - vendor/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

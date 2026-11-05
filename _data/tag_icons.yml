@@ -1,13 +1,17 @@
-# Area tags that get an icon on news cards. A card shows the icon for its
-# first tag listed here; generic tags such as "software" are deliberately
-# absent. Values are symbol ids in _includes/tag-icons.svg.
-email: email
-networking: networking
-multimedia: multimedia
-mapping: mapping
-security: security
-development: development
-community: community
-hardware: hardware
-events: events
-documentation: documentation
+# Icons shown on news cards. A card uses its first tag found in `areas`;
+# if it has none, its first tag found in `fallback`. Values are symbol ids
+# in _includes/tag-icons.svg.
+areas:
+  email: email
+  networking: networking
+  multimedia: multimedia
+  mapping: mapping
+  security: security
+  development: development
+  community: community
+  events: events
+  documentation: documentation
+
+fallback:
+  software: software
+  hardware: hardware

@@ -171,7 +171,7 @@ Prefer existing tags to keep the site organized:
 
 New tags are acceptable if none of the above fit.
 
-Area tags listed in `_data/tag_icons.yml` (such as `email`, `networking`, `multimedia`, `mapping`, `security`, `development`, `community`) show a small icon on the article's home page card; the first matching tag wins. To give a new tag an icon, add a `<symbol id="tag-icon-NAME">` to `_includes/tag-icons.svg` and map the tag to `NAME` in `_data/tag_icons.yml`.
+Each home page card shows a small icon chosen from the article's tags, using `_data/tag_icons.yml`. Area tags (such as `email`, `networking`, `multimedia`, `mapping`, `security`, `development`, `community`) take priority; if an article has none, it falls back to `software` or `hardware`. To give a new tag an icon, add a `<symbol id="tag-icon-NAME">` to `_includes/tag-icons.svg` and map the tag to `NAME` under `areas` (or `fallback`) in `_data/tag_icons.yml`.
 
 ## Code Contributions
 

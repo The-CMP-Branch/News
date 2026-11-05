@@ -36,8 +36,13 @@ body_class: home
                 {% endif %}
                 {% assign icon = nil %}
                 {% for tag in post.tags %}
-                    {% if site.data.tag_icons[tag] %}{% assign icon = site.data.tag_icons[tag] %}{% break %}{% endif %}
+                    {% if site.data.tag_icons.areas[tag] %}{% assign icon = site.data.tag_icons.areas[tag] %}{% break %}{% endif %}
                 {% endfor %}
+                {% unless icon %}
+                    {% for tag in post.tags %}
+                        {% if site.data.tag_icons.fallback[tag] %}{% assign icon = site.data.tag_icons.fallback[tag] %}{% break %}{% endif %}
+                    {% endfor %}
+                {% endunless %}
                 <div class="news-item-footer">
                     <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
                     {% if icon %}

@@ -497,6 +497,16 @@ body > footer a:hover {
     font-weight: 500;
 }
 
+.about-content code {
+    background-color: #E8E8E8;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 0.95em;
+    overflow-wrap: anywhere;
+}
+
 .about-content a.btn {
     color: white;
     text-decoration: none;

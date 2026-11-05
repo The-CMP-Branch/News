@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if page.tags and page.tags.size > 0 %}
+            <span class="tags">
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </span>
+            {% endif %}
+        </div>
+    </header>
+    
+    {% if page.summary %}
+    <div class="post-summary">
+        {{ page.summary }}
+    </div>
+    {% endif %}
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+    
+    {% if page.source_url %}
+    <footer class="post-footer">
+        <p><strong>Source:</strong> <a href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">{{ page.source_name | default: "Original article" }}</a></p>
+    </footer>
+    {% endif %}
+    
+    <div class="post-navigation">
+        <a href="{{ '/' | relative_url }}" class="btn">← Back to news</a>
+    </div>
+</article>

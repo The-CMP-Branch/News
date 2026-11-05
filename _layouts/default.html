@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title and page.url != '/' %}{{ page.title | escape }} | {% endif %}{{ site.title }}</title>
+{%- include seo.html %}
     <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -20,6 +20,14 @@ This site curates news and updates from the RISC OS community, bringing together
 
 RISC OS is a computer operating system originally designed by Acorn Computers Ltd in Cambridge, England. First released in 1987, it was designed to run on the ARM chipset and continues to be developed and used by a dedicated community today.
 
+## Stay Updated
+
+Get new articles as soon as they're published by adding this site to a feed reader, such as Feedly, Inoreader, NetNewsWire, or Thunderbird. It's free and doesn't need an account with us. Copy this address into your reader:
+
+`{{ site.url }}{{ '/feed.xml' | relative_url }}`
+
+Most readers will also find the feed automatically if you give them the site's address.
+
 ## Suggest a News Item
 
 Know about something happening in the RISC OS world that we haven't covered? A new release, hardware announcement, show, or community project? Tell us by opening an issue on GitHub:

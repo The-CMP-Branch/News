@@ -12,7 +12,7 @@ RISC OS Open has released a beta version of LanManFS with support for SMB2 and S
 
 The original SMB protocol, which RISC OS has supported through OmniClient's LanManFS since the 1990s, was disabled by default in Windows 10 and many NAS systems due to security concerns. This left RISC OS users staring at empty file server windows when attempting to browse network shares.
 
-![LanManFS mounting a Windows 11 share]({{ '/assets/images/lanmanfs-win11-mount.png' | relative_url }}){: style="max-width: 100%; height: auto; display: block; margin: 1.5em 0;"}
+![LanManFS mounting a Windows 11 share]({{ '/assets/images/lanmanfs-win11-mount.png' | relative_url }}){: width="626" height="270" loading="lazy"}
 
 *LanManFS successfully mounting and browsing a Windows 11 network share. Screenshot from [RISC OS Open](https://www.riscosopen.org/news/articles/2026/10/22/two-samba-or-not-two-samba-smb2-lands-in-the-nightly-builds).*
 

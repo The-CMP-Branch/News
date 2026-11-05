@@ -27,7 +27,7 @@ body {
 }
 
 /* Header - inspired by RISC OS icon bar */
-header {
+body > header {
     background-color: #ffffff;
     color: #1B365D;
     padding: 1.5rem 0;
@@ -50,6 +50,7 @@ header {
     max-width: 100%;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .site-logo-full {
@@ -58,12 +59,10 @@ header {
 }
 
 .site-logo-full img {
-    height: 220px;
-    width: auto;
+    width: 600px;
+    height: auto;
     max-width: 100%;
     display: block;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
 }
 
 .site-logo-compact {
@@ -127,8 +126,8 @@ main {
 
 /* News list */
 .news-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -141,6 +140,8 @@ main {
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #D0D0D0;
+    display: flex;
+    flex-direction: column;
 }
 
 .news-item-header {
@@ -177,6 +178,10 @@ main {
 
 .news-item-content {
     padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .news-item h2 {
@@ -227,6 +232,7 @@ main {
 }
 
 .read-more {
+    margin-top: auto;
     color: #00A651;
     text-decoration: none;
     font-weight: 600;
@@ -294,6 +300,19 @@ main {
 
 .post-content p {
     margin-bottom: 1rem;
+}
+
+.post-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em auto;
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+}
+
+.post-content a:has(> img) {
+    display: block;
 }
 
 .post-content ul, .post-content ol {
@@ -394,7 +413,7 @@ main {
 }
 
 /* Footer */
-footer {
+body > footer {
     background-color: #1B365D;
     color: #F5EFE0;
     padding: 1.5rem 0;
@@ -403,13 +422,13 @@ footer {
     border-top: 3px solid #00A651;
 }
 
-footer a {
+body > footer a {
     color: #00A651;
     text-decoration: none;
     font-weight: 500;
 }
 
-footer a:hover {
+body > footer a:hover {
     text-decoration: underline;
 }
 
@@ -449,17 +468,28 @@ footer a:hover {
 }
 
 /* Responsive */
+@media (min-width: 1024px) {
+    .home main.container {
+        max-width: 1200px;
+    }
+
+    .news-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .news-item h2 {
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width: 1023px) {
     .site-logo-full img {
-        height: 135px;
+        width: 440px;
     }
 }
 
 @media (max-width: 768px) {
-    .site-logo-full img {
-        height: 110px;
-    }
-    
+
     nav a {
         flex: 1;
         text-align: center;
@@ -482,8 +512,6 @@ footer a:hover {
 @media (max-width: 480px) {
     .site-logo-full img {
         width: 100%;
-        height: auto;
-        max-width: 100%;
     }
     
     .news-item-content {

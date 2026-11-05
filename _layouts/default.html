@@ -12,19 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     <header>
         <div class="container">
             <div class="site-header-content">
                 <a href="{{ '/' | relative_url }}" class="logo-link">
                     <picture class="site-logo-full">
-                        <source srcset="{{ '/assets/logo-full@2x.webp' | relative_url }}" type="image/webp">
-                        <img src="{{ '/assets/logo-full@2x.png' | relative_url }}" alt="The CMP Branch — RISC OS News">
+                        <source type="image/webp"
+                                srcset="{{ '/assets/logo-full.webp' | relative_url }} 600w, {{ '/assets/logo-full@2x.webp' | relative_url }} 1200w"
+                                sizes="(max-width: 480px) calc(100vw - 40px), (max-width: 1023px) 440px, 600px">
+                        <img src="{{ '/assets/logo-full.png' | relative_url }}"
+                             srcset="{{ '/assets/logo-full.png' | relative_url }} 600w, {{ '/assets/logo-full@2x.png' | relative_url }} 1200w"
+                             sizes="(max-width: 480px) calc(100vw - 40px), (max-width: 1023px) 440px, 600px"
+                             width="600" height="152" alt="The CMP Branch — RISC OS News">
                     </picture>
                     <div class="site-logo-compact">
                         <picture class="site-logo-icon">
-                            <source srcset="{{ '/assets/logo-icon@2x.webp' | relative_url }}" type="image/webp">
-                            <img src="{{ '/assets/logo-icon@2x.png' | relative_url }}" alt="The CMP Branch">
+                            <source srcset="{{ '/assets/logo-icon.webp' | relative_url }}" type="image/webp">
+                            <img src="{{ '/assets/logo-icon.png' | relative_url }}" width="57" height="60" loading="lazy" alt="The CMP Branch">
                         </picture>
                         <span class="site-title-compact">The CMP Branch</span>
                     </div>

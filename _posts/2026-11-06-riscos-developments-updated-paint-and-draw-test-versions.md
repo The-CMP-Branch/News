@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RISC OS Developments Releases Enhanced Paint and Draw Test Versions"
-date: 2026-11-06 17:00:00 +0000
+date: 2026-11-06 08:20:00 +0000
 summary: "New test releases bring SVG support to Draw, additional file formats and undo capability to Paint, as part of preparation for 64-bit RISC OS."
 tags: [software, development]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20602"

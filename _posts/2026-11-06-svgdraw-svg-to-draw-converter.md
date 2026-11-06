@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SVGDraw Converts SVG Files to RISC OS Drawfiles"
-date: 2026-11-06 18:00:00 +0000
+date: 2026-11-06 08:30:00 +0000
 summary: "Richard Windley of The Really Small Software Company has released SVGDraw, a new converter that opens SVG files in a zoomable window and saves them as Drawfiles."
 tags: [software, graphics]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20648"

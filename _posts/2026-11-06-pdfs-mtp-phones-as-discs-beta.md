@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PDFS Beta Brings MTP Devices to RISC OS as Filer Discs"
-date: 2026-11-06 17:00:00 +0000
+date: 2026-11-06 08:05:00 +0000
 summary: "New filing system allows Android phones, tablets, and MTP cameras to appear as regular disc drives in the RISC OS Filer, enabling drag-and-drop file transfers."
 tags: [software, filesystems]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20633"

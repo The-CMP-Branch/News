@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WROCC November Meeting Explores Package Managers for RISC OS"
-date: 2026-11-06 17:00:00 +0000
+date: 2026-11-06 08:25:00 +0000
 summary: "Chris Hughes presents Store and PackMan options for installing RISC OS software, demonstrating dependency resolution and package management from an end-user perspective."
 tags: [community, events]
 source_url: "https://www.iconbar.com/articles/WROCC_November_2026_meeting_-_Package_managers_with_Chris_Hughes/index2420.html"

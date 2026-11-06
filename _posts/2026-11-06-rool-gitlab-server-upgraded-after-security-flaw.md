@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ROOL GitLab Server Upgraded Following Security Vulnerability"
-date: 2026-11-06 17:00:00 +0000
+date: 2026-11-06 08:15:00 +0000
 summary: "RISC OS Open Ltd accelerated a planned GitLab upgrade after disclosure of a maximum-severity remote code execution vulnerability affecting twelve years of releases."
 tags: [security, community]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20625"

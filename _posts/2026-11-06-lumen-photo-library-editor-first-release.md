@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lumen Photo Library and Editor Released for RISC OS"
-date: 2026-11-06 17:00:00 +0000
+date: 2026-11-06 08:00:00 +0000
 summary: "New photo management and editing application brings non-destructive editing, smart albums, camera raw support, and professional-grade adjustments to RISC OS 5."
 tags: [software, multimedia]
 source_url: "https://www.riscosopen.org/forum/forums/1/topics/20646"

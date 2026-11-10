@@ -18,7 +18,7 @@ Bristol RISC OS Users will hold an informal pub meet on Thursday 12th November a
 
 Saturday 14th November sees two online meetings taking place via Zoom. The Wessex ARM User Group holds its informal meeting at 10:30am. These sessions bring together RISC OS users and ex-users for general discussion that ranges freely across topics.
 
-Later the same day at 7:45pm, the developers' Fireside chat provides a space for anyone interested in RISC OS development to discuss issues, seek advice, or offer help. With no guest speakers or set agenda, the conversation is guided by whatever participants bring to the table.
+Later the same day at 7:30pm, the developers' Fireside chat provides a space for anyone interested in RISC OS development to discuss issues, seek advice, or offer help. With no guest speakers or set agenda, the conversation is guided by whatever participants bring to the table.
 
 ## ROUGOL – Monday 16th November
 
@@ -29,3 +29,5 @@ The RISC OS User Group of London usually holds hybrid meetings on the third Mond
 Beyond mid-November, WROCC's next meeting is scheduled for 2nd December and WAUG's for 12th December. ROUGOL does not usually hold a meeting in December due to the proximity of its regular meeting date to Christmas.
 
 As meeting dates and arrangements can change, those planning to attend should monitor the groups' own mailing lists, forums and announcement channels for the latest information. Details are available through [WAUG's website](https://waug.tmfraser.co.uk/), [ROUGOL's site](https://www.rougol.jellybaby.net/), and [WROCC's pages](https://www.wrocc.org.uk/), with RISCOSitory's [November meetings round-up](https://www.riscository.com/2026/meetings-and-events-november-2026/) providing an overview.
+
+*Correction, 10 November 2026:* The developers' Fireside chat start time has been corrected to 7:30pm, per RISCOSitory's [9 November preview](https://www.riscository.com/2026/developers-fireside-chat-14th-november/).

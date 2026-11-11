@@ -31,3 +31,5 @@ Beyond mid-November, WROCC's next meeting is scheduled for 2nd December and WAUG
 As meeting dates and arrangements can change, those planning to attend should monitor the groups' own mailing lists, forums and announcement channels for the latest information. Details are available through [WAUG's website](https://waug.tmfraser.co.uk/), [ROUGOL's site](https://www.rougol.jellybaby.net/), and [WROCC's pages](https://www.wrocc.org.uk/), with RISCOSitory's [November meetings round-up](https://www.riscository.com/2026/meetings-and-events-november-2026/) providing an overview.
 
 *Correction, 10 November 2026:* The developers' Fireside chat start time has been corrected to 7:30pm, per RISCOSitory's [9 November preview](https://www.riscository.com/2026/developers-fireside-chat-14th-november/).
+
+*Update, 11 November 2026:* ROUGOL has since confirmed that its 16th November meeting will be a RISC OS 10 deep dive with Andrew Rawnsley of RISC OS Developments – see [our report]({{ '/2026/11/11/rougol-november-risc-os-10-deep-dive/' | relative_url }}).

@@ -33,3 +33,5 @@ As meeting dates and arrangements can change, those planning to attend should mo
 *Correction, 10 November 2026:* The developers' Fireside chat start time has been corrected to 7:30pm, per RISCOSitory's [9 November preview](https://www.riscository.com/2026/developers-fireside-chat-14th-november/).
 
 *Update, 11 November 2026:* ROUGOL has since confirmed that its 16th November meeting will be a RISC OS 10 deep dive with Andrew Rawnsley of RISC OS Developments – see [our report]({{ '/2026/11/11/rougol-november-risc-os-10-deep-dive/' | relative_url }}).
+
+*Update, 12 November 2026:* Chris Hall is now the featured speaker at the Bristol meeting, talking about his RISC OS 64 machine – see [our report]({{ '/2026/11/12/chris-hall-risc-os-64-bristol-meeting/' | relative_url }}).

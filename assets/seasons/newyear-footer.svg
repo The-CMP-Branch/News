@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Night ribbon  seamless -->
+  <path d="M0 30 C 50 22, 100 38, 150 28 S 250 22, 300 30"
+        stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <path d="M0 34 C 60 42, 110 24, 160 36 S 250 40, 300 34"
+        stroke="#1B365D" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Firework burst -->
+  <g transform="translate(50,28)" stroke="#f0d060" stroke-width="1.5" stroke-linecap="round">
+    <line x1="0" y1="0" x2="0" y2="-14"/>
+    <line x1="0" y1="0" x2="10" y2="-10"/>
+    <line x1="0" y1="0" x2="14" y2="0"/>
+    <line x1="0" y1="0" x2="10" y2="10"/>
+    <line x1="0" y1="0" x2="0" y2="12"/>
+    <line x1="0" y1="0" x2="-10" y2="10"/>
+    <line x1="0" y1="0" x2="-14" y2="0"/>
+    <line x1="0" y1="0" x2="-10" y2="-10"/>
+    <circle cx="0" cy="0" r="2.5" fill="#f0d060" stroke="none"/>
+  </g>
+
+  <!-- Champagne glass -->
+  <g transform="translate(140,18)">
+    <path d="M4 8 L12 8 L10 28 L6 28 Z" fill="#f0d060" opacity="0.35" stroke="#c9a227" stroke-width="1.2"/>
+    <path d="M5 8 C5 2, 11 2, 11 8" fill="none" stroke="#c9a227" stroke-width="1.2"/>
+    <line x1="8" y1="28" x2="8" y2="40" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="2" y1="40" x2="14" y2="40" stroke="#c9a227" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="7" cy="14" r="1.2" fill="#fff8dc"/>
+    <circle cx="10" cy="18" r="1" fill="#fff8dc"/>
+  </g>
+
+  <!-- Smaller burst -->
+  <g transform="translate(230,32)" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round">
+    <line x1="0" y1="0" x2="0" y2="-10"/>
+    <line x1="0" y1="0" x2="8" y2="-7"/>
+    <line x1="0" y1="0" x2="10" y2="2"/>
+    <line x1="0" y1="0" x2="6" y2="9"/>
+    <line x1="0" y1="0" x2="-6" y2="9"/>
+    <line x1="0" y1="0" x2="-10" y2="2"/>
+    <line x1="0" y1="0" x2="-8" y2="-7"/>
+    <circle cx="0" cy="0" r="2" fill="#f0d060" stroke="none"/>
+  </g>
+
+  <!-- Confetti dots -->
+  <g fill="#f0d060">
+    <circle cx="90" cy="22" r="1.5"/>
+    <circle cx="110" cy="40" r="1.2"/>
+    <rect x="195" y="20" width="3" height="3" rx="0.5" transform="rotate(20 196.5 21.5)" fill="#1B365D"/>
+    <rect x="260" y="42" width="3" height="3" rx="0.5" transform="rotate(-15 261.5 43.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Soft ribbon - seamless -->
+  <path d="M0 12 C 50 4, 100 20, 150 12 S 250 4, 300 12"
+        stroke="#e85a7a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M0 16 C 60 24, 110 8, 160 16 S 250 22, 300 16"
+        stroke="#c41e3a" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Tiny hearts on ribbon -->
+  <g fill="#c41e3a">
+    <path d="M35 10 C35 7,38 5,40 7 C42 5,45 7,45 10 C45 14,40 18,40 18 C40 18,35 14,35 10z"/>
+    <path d="M165 11 C165 8,168 6,170 8 C172 6,175 8,175 11 C175 15,170 19,170 19 C170 19,165 15,165 11z"/>
+  </g>
+
+  <!-- Strings -->
+  <g stroke="#e85a7a" stroke-width="1.2" stroke-linecap="round">
+    <line x1="75" y1="14" x2="75" y2="28"/>
+    <line x1="150" y1="13" x2="150" y2="30"/>
+    <line x1="225" y1="14" x2="225" y2="26"/>
+  </g>
+
+  <!-- Hanging hearts -->
+  <path d="M63 30 C63 24,70 20,75 25 C80 20,87 24,87 30 C87 40,75 50,75 50 C75 50,63 40,63 30z" fill="#c41e3a"/>
+  <path d="M68 32 C68 29,71 27,73 29" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.45"/>
+
+  <path d="M136 32 C136 25,144 20,150 26 C156 20,164 25,164 32 C164 44,150 56,150 56 C150 56,136 44,136 32z" fill="#e85a7a"/>
+  <path d="M142 34 C142 30,146 28,148 30" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <path d="M213 28 C213 22,220 18,225 23 C230 18,237 22,237 28 C237 38,225 48,225 48 C225 48,213 38,213 28z" fill="#9b1b30"/>
+  <path d="M218 30 C218 27,221 25,223 27" stroke="#fff" stroke-width="1.4" fill="none" opacity="0.4"/>
+</svg>

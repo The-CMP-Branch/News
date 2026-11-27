@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Greenery — ends meet for seamless repeat -->
+  <path d="M0 28 C 40 20, 80 36, 120 26 S 200 18, 240 30 S 280 22, 300 28"
+        stroke="#1e8f45" stroke-width="4" stroke-linecap="round"/>
+  <path d="M0 32 C 50 40, 100 22, 150 34 S 230 40, 270 28 S 290 34, 300 32"
+        stroke="#2d6a3e" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Holly -->
+  <g fill="#1e8f45">
+    <ellipse cx="40" cy="28" rx="14" ry="6" transform="rotate(-28 40 28)"/>
+    <ellipse cx="52" cy="26" rx="12" ry="5" transform="rotate(24 52 26)"/>
+    <ellipse cx="160" cy="27" rx="14" ry="6" transform="rotate(-20 160 27)"/>
+    <ellipse cx="172" cy="29" rx="12" ry="5" transform="rotate(26 172 29)"/>
+  </g>
+  <g fill="#c41e3a">
+    <circle cx="46" cy="30" r="2.8"/><circle cx="52" cy="33" r="2.3"/><circle cx="40" cy="33" r="2.2"/>
+    <circle cx="166" cy="31" r="2.8"/><circle cx="172" cy="34" r="2.3"/>
+  </g>
+
+  <!-- Candy cane -->
+  <g transform="translate(95,18)">
+    <path d="M0 8 C0 0, 12 0, 12 8 L12 42" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M0 8 C0 0, 12 0, 12 8 L12 42" stroke="#c41e3a" stroke-width="7" stroke-linecap="round" fill="none" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- Gift -->
+  <g transform="translate(220,36)">
+    <rect x="0" y="8" width="22" height="18" rx="1" fill="#1B365D"/>
+    <rect x="9" y="8" width="4" height="18" fill="#c9a227"/>
+    <rect x="0" y="14" width="22" height="4" fill="#c9a227"/>
+    <path d="M7 8 C7 2, 15 2, 15 8" stroke="#c9a227" stroke-width="2" fill="none"/>
+  </g>
+</svg>

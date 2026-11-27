@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 72" fill="none" aria-hidden="true">
+  <path d="M0 16 C 70 6, 130 26, 200 14 S 340 4, 420 18 S 560 6, 640 16 S 780 8, 900 14"
+        stroke="#e85a7a" stroke-width="2" stroke-linecap="round"/>
+
+  <g>
+    <g transform="translate(50,14)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#c41e3a"/>
+    </g>
+    <g transform="translate(120,12)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#e85a7a"/>
+    </g>
+    <g transform="translate(190,18)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#9b1b30"/>
+    </g>
+    <g transform="translate(260,11)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#f4a6b8"/>
+    </g>
+    <g transform="translate(330,16)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#c41e3a"/>
+    </g>
+    <g transform="translate(400,10)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#e85a7a"/>
+    </g>
+    <g transform="translate(470,17)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#9b1b30"/>
+    </g>
+    <g transform="translate(540,12)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#c41e3a"/>
+    </g>
+    <g transform="translate(610,15)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#f4a6b8"/>
+    </g>
+    <g transform="translate(680,11)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#e85a7a"/>
+    </g>
+    <g transform="translate(750,16)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#c41e3a"/>
+    </g>
+    <g transform="translate(820,13)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-7 10 C-7 5,-3 3,0 6 C3 3,7 5,7 10 C7 16,0 22,0 22 C0 22,-7 16,-7 10z" fill="#9b1b30"/>
+    </g>
+    <g transform="translate(870,15)">
+      <rect x="-3" y="0" width="6" height="5" rx="1" fill="#8a4555"/>
+      <path d="M-8 10 C-8 5,-3 2,0 6 C3 2,8 5,8 10 C8 17,0 24,0 24 C0 24,-8 17,-8 10z" fill="#e85a7a"/>
+    </g>
+  </g>
+</svg>

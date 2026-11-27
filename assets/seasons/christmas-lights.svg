@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 72" fill="none" aria-hidden="true">
+  <!-- Wire -->
+  <path d="M0 16 C 70 6, 130 26, 200 14 S 340 4, 420 18 S 560 6, 640 16 S 780 8, 900 14"
+        stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Bulb sockets + bulbs (alternating colours) -->
+  <g>
+    <!-- positions along the wire -->
+    <g transform="translate(50,14)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c41e3a"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(120,12)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1e8f45"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(190,18)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c9a227"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.4"/>
+    </g>
+    <g transform="translate(260,11)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1B365D"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(330,16)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c41e3a"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(400,10)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1e8f45"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(470,17)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c9a227"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.4"/>
+    </g>
+    <g transform="translate(540,12)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c41e3a"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(610,15)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1B365D"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(680,11)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1e8f45"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(750,16)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c9a227"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.4"/>
+    </g>
+    <g transform="translate(820,13)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#c41e3a"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+    <g transform="translate(870,15)">
+      <rect x="-4" y="0" width="8" height="6" rx="1" fill="#555"/>
+      <ellipse cx="0" cy="18" rx="8" ry="12" fill="#1e8f45"/>
+      <ellipse cx="-2" cy="12" rx="2.5" ry="3.5" fill="#fff" opacity="0.35"/>
+    </g>
+  </g>
+</svg>

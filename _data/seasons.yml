@@ -1,0 +1,23 @@
+# Seasonal decorations — first matching window wins.
+# Annual windows use MM-DD. If start > end, the window crosses New Year
+# (e.g. 12-27 → 01-03).
+# Optional header/news/footer asset names under assets/seasons/;
+# any omitted placement falls back to "{id}-garland.svg".
+- id: christmas
+  start: "12-01"
+  end: "12-26"
+  header: "christmas-garland.svg"
+  news: "christmas-lights.svg"
+  footer: "christmas-footer.svg"
+- id: newyear
+  start: "12-27"
+  end: "01-03"
+  header: "newyear-garland.svg"
+  news: "newyear-lights.svg"
+  footer: "newyear-footer.svg"
+- id: valentines
+  start: "02-10"
+  end: "02-14"
+  header: "valentines-garland.svg"
+  news: "valentines-lights.svg"
+  footer: "valentines-footer.svg"

@@ -1,0 +1,378 @@
+/* Seasonal decorations — loaded only when a season is active */
+
+.season-decor {
+    pointer-events: none;
+    line-height: 0;
+    overflow: visible;
+}
+
+.season-decor-garland {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header: hang from the top of the title bar */
+body > header {
+    position: relative;
+    overflow: visible;
+}
+
+.season-decor--header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    transform: translateY(-6px);
+    width: 100%;
+    height: 64px;
+    background-image: var(--season-decor-image);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto 64px;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+}
+
+.season-decor--header .season-decor-garland {
+    display: none;
+}
+
+body.season-christmas > header,
+body.season-newyear > header,
+body.season-valentines > header {
+    padding-top: 3.25rem;
+}
+
+body.season-christmas > header {
+    border-bottom-color: #c41e3a;
+    background:
+        linear-gradient(180deg, #fff8f0 0%, #ffffff 48%);
+}
+
+body.season-newyear > header {
+    border-bottom-color: #c9a227;
+    background:
+        linear-gradient(180deg, #eef2fb 0%, #ffffff 48%);
+}
+
+body.season-valentines > header {
+    border-bottom-color: #e85a7a;
+    background:
+        linear-gradient(180deg, #fff0f4 0%, #ffffff 48%);
+}
+
+/* News list: hanging strip above articles */
+.season-decor--news {
+    margin: -0.5rem 0 1rem;
+}
+
+.season-decor--news .season-decor-garland {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12));
+}
+
+body.season-christmas.home main.container {
+    background:
+        linear-gradient(180deg, #fff5eb 0%, #F5EFE0 18%);
+}
+
+body.season-newyear.home main.container {
+    background:
+        linear-gradient(180deg, #e8eef8 0%, #F5EFE0 18%);
+}
+
+body.season-valentines.home main.container {
+    background:
+        linear-gradient(180deg, #ffe8ef 0%, #F5EFE0 18%);
+}
+
+body.season-christmas .news-item,
+body.season-newyear .news-item,
+body.season-valentines .news-item {
+    position: relative;
+    overflow: visible;
+}
+
+body.season-christmas .news-item::before,
+body.season-newyear .news-item::before,
+body.season-valentines .news-item::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -10px;
+    height: 34px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+body.season-christmas .news-item::before {
+    background: url("../seasons/christmas-snow-cap-1.svg") no-repeat center top / 100% 100%;
+}
+
+body.season-christmas .news-item:nth-child(3n+2)::before {
+    background-image: url("../seasons/christmas-snow-cap-2.svg");
+}
+
+body.season-christmas .news-item:nth-child(3n+3)::before {
+    background-image: url("../seasons/christmas-snow-cap-3.svg");
+    top: -9px;
+    height: 33px;
+}
+
+body.season-newyear .news-item::before {
+    background: url("../seasons/newyear-sparkle-cap-1.svg") no-repeat center top / 100% 100%;
+}
+
+body.season-newyear .news-item:nth-child(3n+2)::before {
+    background-image: url("../seasons/newyear-sparkle-cap-2.svg");
+}
+
+body.season-newyear .news-item:nth-child(3n+3)::before {
+    background-image: url("../seasons/newyear-sparkle-cap-3.svg");
+    top: -9px;
+    height: 33px;
+}
+
+body.season-valentines .news-item::before {
+    top: -16px;
+    height: 36px;
+    background: url("../seasons/valentines-heart-cap-1.svg") no-repeat center top / 100% 100%;
+}
+
+body.season-valentines .news-item:nth-child(3n+2)::before {
+    background-image: url("../seasons/valentines-heart-cap-2.svg");
+}
+
+body.season-valentines .news-item:nth-child(3n+3)::before {
+    background-image: url("../seasons/valentines-heart-cap-3.svg");
+}
+
+body.season-christmas .news-item-header,
+body.season-newyear .news-item-header,
+body.season-valentines .news-item-header {
+    border-radius: 8px 8px 0 0;
+}
+
+body.season-christmas .news-item-header {
+    background: linear-gradient(90deg, #fff0e8, #eef8f0, #fff0e8);
+    border-bottom-color: #c41e3a;
+}
+
+body.season-newyear .news-item-header {
+    background: linear-gradient(90deg, #eef2fb, #fff8e7, #eef2fb);
+    border-bottom-color: #c9a227;
+}
+
+body.season-valentines .news-item-header {
+    background: linear-gradient(90deg, #fff0f4, #ffe4ec, #fff0f4);
+    border-bottom-color: #e85a7a;
+}
+
+body.season-christmas .dot-green {
+    background-color: #1e8f45;
+    box-shadow: 0 0 0 1px rgba(196, 30, 58, 0.25);
+}
+
+body.season-christmas .dot-navy {
+    background-color: #c41e3a;
+}
+
+body.season-christmas .dot-grey {
+    background-color: #c9a227;
+}
+
+body.season-newyear .dot-green {
+    background-color: #c9a227;
+}
+
+body.season-newyear .dot-navy {
+    background-color: #1B365D;
+}
+
+body.season-newyear .dot-grey {
+    background-color: #f0d060;
+}
+
+body.season-valentines .dot-green {
+    background-color: #e85a7a;
+}
+
+body.season-valentines .dot-navy {
+    background-color: #c41e3a;
+}
+
+body.season-valentines .dot-grey {
+    background-color: #f4a6b8;
+}
+
+/* Footer */
+body > footer {
+    position: relative;
+    overflow: visible;
+}
+
+.season-decor--footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(-55%);
+    z-index: 1;
+    width: 100%;
+    height: 52px;
+    background-image: var(--season-decor-image);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto 52px;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.season-decor--footer .season-decor-garland {
+    display: none;
+}
+
+body.season-christmas > footer,
+body.season-newyear > footer,
+body.season-valentines > footer {
+    margin-top: 2.5rem;
+}
+
+body.season-christmas > footer {
+    border-top-color: #c41e3a;
+    background:
+        linear-gradient(180deg, #243f2a 0%, #1B365D 55%);
+}
+
+body.season-christmas > footer a {
+    color: #f0d060;
+}
+
+body.season-newyear > footer {
+    border-top-color: #c9a227;
+    background:
+        linear-gradient(180deg, #152a4a 0%, #1B365D 55%);
+}
+
+body.season-newyear > footer a {
+    color: #f0d060;
+}
+
+body.season-valentines > footer {
+    border-top-color: #e85a7a;
+    background:
+        linear-gradient(180deg, #6b1f33 0%, #1B365D 55%);
+}
+
+body.season-valentines > footer a {
+    color: #f4a6b8;
+}
+
+@keyframes season-twinkle {
+    0%, 100% { filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15)) brightness(1); }
+    50% { filter: drop-shadow(0 2px 6px rgba(240, 208, 96, 0.45)) brightness(1.08); }
+}
+
+/* Gentle sway / light twinkle */
+@keyframes season-sway {
+    0%, 100% { transform: translateY(-6px) rotate(0deg); }
+    50% { transform: translateY(-6px) rotate(0.4deg); }
+}
+
+@keyframes season-sway-footer {
+    0%, 100% { transform: translateY(-55%) rotate(0deg); }
+    50% { transform: translateY(-55%) rotate(0.4deg); }
+}
+
+@keyframes season-sway-news {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-0.35deg); }
+}
+
+@keyframes season-lights-twinkle {
+    0%, 100% { filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12)) brightness(1); }
+    40% { filter: drop-shadow(0 2px 8px rgba(201, 162, 39, 0.35)) brightness(1.12); }
+    70% { filter: drop-shadow(0 2px 6px rgba(196, 30, 58, 0.25)) brightness(1.05); }
+}
+
+.season-decor--header {
+    animation: season-sway 5.5s ease-in-out infinite;
+    transform-origin: 50% 0;
+}
+
+.season-decor--news .season-decor-garland {
+    animation: season-sway-news 6s ease-in-out infinite;
+    transform-origin: 50% 0;
+}
+
+body.season-christmas .season-decor--news .season-decor-garland,
+body.season-valentines .season-decor--news .season-decor-garland {
+    animation:
+        season-sway-news 6s ease-in-out infinite,
+        season-lights-twinkle 2.4s ease-in-out infinite;
+}
+
+.season-decor--footer {
+    animation: season-sway-footer 7s ease-in-out infinite reverse;
+    transform-origin: 50% 0;
+}
+
+body.season-newyear .season-decor--header {
+    animation-name: season-sway, season-twinkle;
+    animation-duration: 5.5s, 2.8s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+
+body.season-newyear .season-decor--footer {
+    animation-name: season-sway-footer, season-twinkle;
+    animation-duration: 7s, 2.8s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+
+body.season-newyear .season-decor--news .season-decor-garland {
+    animation-name: season-sway-news, season-twinkle;
+    animation-duration: 6s, 2.8s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .season-decor--header,
+    .season-decor--footer,
+    .season-decor--news .season-decor-garland,
+    body.season-christmas .season-decor--news .season-decor-garland,
+    body.season-newyear .season-decor--header,
+    body.season-newyear .season-decor--footer,
+    body.season-newyear .season-decor--news .season-decor-garland {
+        animation: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .season-decor--header {
+        transform: translateY(-2px);
+    }
+
+    body.season-christmas > header,
+    body.season-newyear > header,
+    body.season-valentines > header {
+        padding-top: 2.5rem;
+    }
+
+    .season-decor--news .season-decor-garland {
+        /* Crop slightly on small screens for news strip */
+        width: 140%;
+        max-width: none;
+        margin-left: -20%;
+    }
+
+    .season-decor--footer {
+        transform: translateY(-45%);
+        height: 44px;
+        background-size: auto 44px;
+    }
+}

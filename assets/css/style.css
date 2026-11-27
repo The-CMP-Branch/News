@@ -277,6 +277,51 @@ main.container {
     padding: 3rem 0;
 }
 
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem 0 1rem;
+    padding: 1rem 0;
+}
+
+.pagination-prev,
+.pagination-next {
+    flex: 1;
+}
+
+.pagination-next {
+    text-align: right;
+}
+
+.pagination a {
+    color: #1B365D;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.pagination a:hover,
+.pagination a:focus {
+    color: #00A651;
+    text-decoration: underline;
+}
+
+.pagination-status {
+    flex: 0 0 auto;
+    margin: 0;
+    color: #1B365D;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.pagination-disabled {
+    color: #1B365D;
+    opacity: 0.35;
+    font-weight: 600;
+}
+
 /* Individual post */
 .post {
     max-width: 100%;

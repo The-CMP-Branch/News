@@ -39,6 +39,10 @@ You don't need to write the article. Just tell us what the news is and link to w
 
 You'll need a free GitHub account to open an issue.
 
+## Visitor counts
+
+We count page views with [GoatCounter](https://www.goatcounter.com/), which does not use cookies and does not collect personal information. Numbers only — not identities.
+
 ## Contact
 
 This site is maintained by The CMP Branch organization. For questions or concerns, please open an issue on our [GitHub repository](https://github.com/The-CMP-Branch/News).

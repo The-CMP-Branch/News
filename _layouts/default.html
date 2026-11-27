@@ -53,5 +53,8 @@
             <p>&copy; {{ 'now' | date: "%Y" }} The CMP Branch. Content sources credited per article. <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
         </div>
     </footer>
+    {% if site.goatcounter %}
+    <script data-goatcounter="{{ site.goatcounter }}" async src="https://gc.zgo.at/count.js"></script>
+    {% endif %}
 </body>
 </html>

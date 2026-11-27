@@ -3,6 +3,7 @@ title: "The CMP Branch — RISC OS News"
 description: "Community news and updates from the RISC OS world"
 url: "https://the-cmp-branch.github.io"
 baseurl: "/News"
+goatcounter: "https://the-cmp-branch.goatcounter.com/count"
 
 # Build settings
 markdown: kramdown

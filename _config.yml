@@ -5,6 +5,10 @@ url: "https://the-cmp-branch.github.io"
 baseurl: "/News"
 goatcounter: "https://the-cmp-branch.goatcounter.com/count"
 
+# Seasonal decorations — set to a season id (e.g. "christmas") to force it on;
+# clear to "" so production uses the calendar windows in _data/seasons.yml.
+season_override: ""
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/

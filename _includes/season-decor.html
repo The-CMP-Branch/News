@@ -1,0 +1,28 @@
+{%- comment -%}
+  Expects: placement — "header", "news", or "footer"
+  Resolves season here too: page content (e.g. index) renders before the layout.
+{%- endcomment -%}
+{%- include season.html -%}
+{%- if season and season != "" -%}
+  {%- assign decor_file = season | append: "-garland.svg" -%}
+  {%- for s in site.data.seasons -%}
+    {%- if s.id == season -%}
+      {%- if include.placement == "header" and s.header -%}
+        {%- assign decor_file = s.header -%}
+      {%- elsif include.placement == "news" and s.news -%}
+        {%- assign decor_file = s.news -%}
+      {%- elsif include.placement == "footer" and s.footer -%}
+        {%- assign decor_file = s.footer -%}
+      {%- endif -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign decor_url = '/assets/seasons/' | append: decor_file | relative_url -%}
+<div class="season-decor season-decor--{{ include.placement }} season-decor--{{ season }}"
+     style="--season-decor-image: url('{{ decor_url }}')"
+     aria-hidden="true">
+  <img class="season-decor-garland"
+       src="{{ decor_url }}"
+       width="900" height="72" alt="">
+</div>
+{%- endif -%}

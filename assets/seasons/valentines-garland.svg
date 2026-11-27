@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="val-garland-ruby" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#ffdfc7"/><stop offset=".26" stop-color="#db727e"/><stop offset=".69" stop-color="#ba3c56"/><stop offset="1" stop-color="#7c283e"/></radialGradient>
+    <radialGradient id="val-garland-rose" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff0d9"/><stop offset=".26" stop-color="#f0a5a9"/><stop offset=".69" stop-color="#d06a81"/><stop offset="1" stop-color="#993f5c"/></radialGradient>
+    <radialGradient id="val-garland-wine" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#f4d1bb"/><stop offset=".26" stop-color="#b46279"/><stop offset=".69" stop-color="#8e3656"/><stop offset="1" stop-color="#55263b"/></radialGradient>
+    <radialGradient id="val-garland-blush" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff5e2"/><stop offset=".26" stop-color="#f7cfc0"/><stop offset=".69" stop-color="#e3a2a4"/><stop offset="1" stop-color="#ae657c"/></radialGradient>
+  </defs>
+  <path d="M75 11.2v13" stroke="#a7876b" stroke-width="1.05"/>
+  <g transform="translate(75 38.2) rotate(-8) scale(1)">
+    <g transform="translate(0 -9.8) rotate(0) scale(1)">
+      <path d="M0 1.5c-3.52-2.45-2.38-6.35 0-6.35s3.52 3.9 0 6.35Z" stroke="#b48a58" stroke-width="1.16"/>
+    </g>
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-garland-ruby)" stroke="#7c283e" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#7c283e" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#ffdfc7" opacity=".73"/>
+    <path d="M0-5.35C-5.8-13.25-14.1-11.3-14.7-5.5c-.8 7.7 6.9 15.5 14.7 21 7.8-5.5 15.5-13.3 14.7-21C14.1-11.3 5.8-13.25 0-5.35Z" stroke="#efcf9c" stroke-opacity=".87" stroke-width=".8"/><path d="M-7.5 3.6c4.1-1.1 6-3.3 7.5-7.4 1.5 4.1 3.4 6.3 7.5 7.4-4.1 1.1-6 3.3-7.5 7.4-1.5-4.1-3.4-6.3-7.5-7.4Z" fill="#efd6a7"/><circle cx="0" cy="3.6" r="1.15" fill="#9e5470"/>
+  </g>
+  <path d="M150 16v13" stroke="#a7876b" stroke-width="1.05"/>
+  <g transform="translate(150 43) rotate(5) scale(1.02)">
+    <g transform="translate(0 -9.8) rotate(0) scale(1)">
+      <path d="M0 1.5c-3.52-2.45-2.38-6.35 0-6.35s3.52 3.9 0 6.35Z" stroke="#b48a58" stroke-width="1.16"/>
+    </g>
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-garland-blush)" stroke="#ae657c" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#ae657c" opacity=".31"/>
+
+    <path d="M0-8.15c-6.9-9-15.6-7.2-17.7 1.7C-12.7-8.5-7.8-5.6 0 3.6c8-8.7 12.9-12 17.7-10.05-2.1-8.9-10.8-10.7-17.7-1.7Z" fill="#fff3df" opacity=".35"/><path d="M-15.1-.8q7 2.8 15.1 16.9Q8.4 2 15.1-.8M-10.8 1.4Q-4.1 7.5 0 15.9 4.1 7.5 10.8 1.4M0-7.1v16" stroke="#8f435b" stroke-width=".68" opacity=".46" stroke-linecap="round"/>
+  </g>
+  <path d="M225 11.7v13" stroke="#a7876b" stroke-width="1.05"/>
+  <g transform="translate(225 38.7) rotate(7) scale(1)">
+    <g transform="translate(0 -9.8) rotate(0) scale(1)">
+      <path d="M0 1.5c-3.52-2.45-2.38-6.35 0-6.35s3.52 3.9 0 6.35Z" stroke="#b48a58" stroke-width="1.16"/>
+    </g>
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-garland-wine)" stroke="#55263b" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#55263b" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#f4d1bb" opacity=".73"/>
+    <path d="M0 14.7C-1.1 9.5-4.8 5.6-9.2 5.25c-3.1-.3-3.25-4.2-.45-4.6 2.4-.38 3.5 1.7 3.44 3.4m6.21 10.65C1.1 9.5 4.8 5.6 9.2 5.25c3.1-.3 3.25-4.2.45-4.6-2.4-.38-3.5 1.7-3.44 3.4" stroke="#ecd1a4" stroke-width=".85" stroke-linecap="round"/><path d="M0 1.8c.55 2.1 1.4 3 3.2 3.55C1.4 5.9.55 6.8 0 8.9-.55 6.8-1.4 5.9-3.2 5.35-1.4 4.8-.55 3.9 0 1.8Z" fill="#f6dcb3"/>
+  </g>
+  <path d="M0 14H7C22 14 37 17.65 64 14S112 8.8 147 14 195 19.5 221 14 256 9.3 277 14C282 14 286 14 293 14H300" stroke="#915469" stroke-width="2.75"/>
+  <path d="M0 14H7C22 14 37 17.65 64 14S112 8.8 147 14 195 19.5 221 14 256 9.3 277 14C282 14 286 14 293 14H300" stroke="#dc9fa5" stroke-width="1.62" transform="translate(0 -.31)"/>
+  <path d="M0 14H7C22 14 37 17.65 64 14S112 8.8 147 14 195 19.5 221 14 256 9.3 277 14C282 14 286 14 293 14H300" stroke="#f2c7b4" stroke-opacity=".74" stroke-width=".51" transform="translate(0 -.75)"/>
+  <g transform="translate(32 15.3) rotate(-9) scale(0.38)">
+    <path d="M-1.7 1.3C-5.8 6.1-8 16.8-13.6 22l5.65-1.1 2.4 3.5C-1.3 18.5-.7 12.5 1.9 6.8c3.7 5.3 7.8 9.7 10 15.1l2.2-4 5.7.65C13.1 12.7 9.65 5.6 3.3 1.7Z" fill="url(#val-garland-ruby)" stroke="#7b304b" stroke-width=".85" stroke-linejoin="round"/>
+    <path d="M-1.95 6.7c-2.7 4.7-3.8 10.1-7.2 14.4m13.15-14c4.2 4.7 7.65 9.25 9.15 12.58" stroke="#f2b6ac" stroke-opacity=".59" stroke-width=".77" stroke-linecap="round"/>
+    <path d="M-.5-2.6C-6.4-7.1-14.6-13.7-19.6-11.8c-2.9 1.1-3.45 5.55-3.3 10.55.15 4.5 1.34 7.6 4.5 7.2C-13.75 5.6-7.4 2.8.5.7Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M.15-2.4c5.7-4.5 13.95-11 19.55-9.3 3.2.98 3.5 5.8 3.4 10.45-.1 4.6-1.35 7.7-4.4 7.25C14.3 5.4 7.6 2.8-.25.8Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M-16-3.7C-12.4-4.65-6.95-2.1-1.75-.2-8.8.1-14.65 1.55-17.35 2.8c1.35-1.74 3.8-3.1 6.3-3.45-2.25-.98-3.8-1.85-4.95-3.05Zm31.95 0C12.25-4.6 6.95-2.1 1.7-.2 9.05.1 14.65 1.55 17.35 2.8 16 1.06 13.55-.3 11.05-.65c2.25-.98 3.75-1.9 4.9-3.05Z" fill="#772d4b" fill-opacity=".6"/>
+    <path d="M-19.75-9.35c4.3-.8 10.45 2.68 14.65 5.15m10.2 0c4.2-2.47 10.3-5.9 14.4-5.2" stroke="#f4bbb3" stroke-opacity=".78" stroke-width=".93" stroke-linecap="round"/>
+    <path d="M-3.2-3.2c1.67-1.35 4.75-1.45 6.38-.26l.62 6.19C2.3 4.4-1.35 4.8-3.3 3.15Z" fill="url(#val-garland-rose)" stroke="#7b304c" stroke-width=".81"/>
+    <path d="M-1.55-2.15 1.5-2.3" stroke="#f1b1b3" stroke-width=".71" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(110 10.4) rotate(6) scale(0.34)">
+    <path d="M-1.7 1.3C-5.8 6.1-8 16.8-13.6 22l5.65-1.1 2.4 3.5C-1.3 18.5-.7 12.5 1.9 6.8c3.7 5.3 7.8 9.7 10 15.1l2.2-4 5.7.65C13.1 12.7 9.65 5.6 3.3 1.7Z" fill="url(#val-garland-ruby)" stroke="#7b304b" stroke-width=".85" stroke-linejoin="round"/>
+    <path d="M-1.95 6.7c-2.7 4.7-3.8 10.1-7.2 14.4m13.15-14c4.2 4.7 7.65 9.25 9.15 12.58" stroke="#f2b6ac" stroke-opacity=".59" stroke-width=".77" stroke-linecap="round"/>
+    <path d="M-.5-2.6C-6.4-7.1-14.6-13.7-19.6-11.8c-2.9 1.1-3.45 5.55-3.3 10.55.15 4.5 1.34 7.6 4.5 7.2C-13.75 5.6-7.4 2.8.5.7Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M.15-2.4c5.7-4.5 13.95-11 19.55-9.3 3.2.98 3.5 5.8 3.4 10.45-.1 4.6-1.35 7.7-4.4 7.25C14.3 5.4 7.6 2.8-.25.8Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M-16-3.7C-12.4-4.65-6.95-2.1-1.75-.2-8.8.1-14.65 1.55-17.35 2.8c1.35-1.74 3.8-3.1 6.3-3.45-2.25-.98-3.8-1.85-4.95-3.05Zm31.95 0C12.25-4.6 6.95-2.1 1.7-.2 9.05.1 14.65 1.55 17.35 2.8 16 1.06 13.55-.3 11.05-.65c2.25-.98 3.75-1.9 4.9-3.05Z" fill="#772d4b" fill-opacity=".6"/>
+    <path d="M-19.75-9.35c4.3-.8 10.45 2.68 14.65 5.15m10.2 0c4.2-2.47 10.3-5.9 14.4-5.2" stroke="#f4bbb3" stroke-opacity=".78" stroke-width=".93" stroke-linecap="round"/>
+    <path d="M-3.2-3.2c1.67-1.35 4.75-1.45 6.38-.26l.62 6.19C2.3 4.4-1.35 4.8-3.3 3.15Z" fill="url(#val-garland-rose)" stroke="#7b304c" stroke-width=".81"/>
+    <path d="M-1.55-2.15 1.5-2.3" stroke="#f1b1b3" stroke-width=".71" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(185 16.4) rotate(-5) scale(0.36)">
+    <path d="M-1.7 1.3C-5.8 6.1-8 16.8-13.6 22l5.65-1.1 2.4 3.5C-1.3 18.5-.7 12.5 1.9 6.8c3.7 5.3 7.8 9.7 10 15.1l2.2-4 5.7.65C13.1 12.7 9.65 5.6 3.3 1.7Z" fill="url(#val-garland-ruby)" stroke="#7b304b" stroke-width=".85" stroke-linejoin="round"/>
+    <path d="M-1.95 6.7c-2.7 4.7-3.8 10.1-7.2 14.4m13.15-14c4.2 4.7 7.65 9.25 9.15 12.58" stroke="#f2b6ac" stroke-opacity=".59" stroke-width=".77" stroke-linecap="round"/>
+    <path d="M-.5-2.6C-6.4-7.1-14.6-13.7-19.6-11.8c-2.9 1.1-3.45 5.55-3.3 10.55.15 4.5 1.34 7.6 4.5 7.2C-13.75 5.6-7.4 2.8.5.7Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M.15-2.4c5.7-4.5 13.95-11 19.55-9.3 3.2.98 3.5 5.8 3.4 10.45-.1 4.6-1.35 7.7-4.4 7.25C14.3 5.4 7.6 2.8-.25.8Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M-16-3.7C-12.4-4.65-6.95-2.1-1.75-.2-8.8.1-14.65 1.55-17.35 2.8c1.35-1.74 3.8-3.1 6.3-3.45-2.25-.98-3.8-1.85-4.95-3.05Zm31.95 0C12.25-4.6 6.95-2.1 1.7-.2 9.05.1 14.65 1.55 17.35 2.8 16 1.06 13.55-.3 11.05-.65c2.25-.98 3.75-1.9 4.9-3.05Z" fill="#772d4b" fill-opacity=".6"/>
+    <path d="M-19.75-9.35c4.3-.8 10.45 2.68 14.65 5.15m10.2 0c4.2-2.47 10.3-5.9 14.4-5.2" stroke="#f4bbb3" stroke-opacity=".78" stroke-width=".93" stroke-linecap="round"/>
+    <path d="M-3.2-3.2c1.67-1.35 4.75-1.45 6.38-.26l.62 6.19C2.3 4.4-1.35 4.8-3.3 3.15Z" fill="url(#val-garland-rose)" stroke="#7b304c" stroke-width=".81"/>
+    <path d="M-1.55-2.15 1.5-2.3" stroke="#f1b1b3" stroke-width=".71" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(264 11) rotate(5) scale(0.38)">
+    <path d="M-1.7 1.3C-5.8 6.1-8 16.8-13.6 22l5.65-1.1 2.4 3.5C-1.3 18.5-.7 12.5 1.9 6.8c3.7 5.3 7.8 9.7 10 15.1l2.2-4 5.7.65C13.1 12.7 9.65 5.6 3.3 1.7Z" fill="url(#val-garland-ruby)" stroke="#7b304b" stroke-width=".85" stroke-linejoin="round"/>
+    <path d="M-1.95 6.7c-2.7 4.7-3.8 10.1-7.2 14.4m13.15-14c4.2 4.7 7.65 9.25 9.15 12.58" stroke="#f2b6ac" stroke-opacity=".59" stroke-width=".77" stroke-linecap="round"/>
+    <path d="M-.5-2.6C-6.4-7.1-14.6-13.7-19.6-11.8c-2.9 1.1-3.45 5.55-3.3 10.55.15 4.5 1.34 7.6 4.5 7.2C-13.75 5.6-7.4 2.8.5.7Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M.15-2.4c5.7-4.5 13.95-11 19.55-9.3 3.2.98 3.5 5.8 3.4 10.45-.1 4.6-1.35 7.7-4.4 7.25C14.3 5.4 7.6 2.8-.25.8Z" fill="url(#val-garland-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M-16-3.7C-12.4-4.65-6.95-2.1-1.75-.2-8.8.1-14.65 1.55-17.35 2.8c1.35-1.74 3.8-3.1 6.3-3.45-2.25-.98-3.8-1.85-4.95-3.05Zm31.95 0C12.25-4.6 6.95-2.1 1.7-.2 9.05.1 14.65 1.55 17.35 2.8 16 1.06 13.55-.3 11.05-.65c2.25-.98 3.75-1.9 4.9-3.05Z" fill="#772d4b" fill-opacity=".6"/>
+    <path d="M-19.75-9.35c4.3-.8 10.45 2.68 14.65 5.15m10.2 0c4.2-2.47 10.3-5.9 14.4-5.2" stroke="#f4bbb3" stroke-opacity=".78" stroke-width=".93" stroke-linecap="round"/>
+    <path d="M-3.2-3.2c1.67-1.35 4.75-1.45 6.38-.26l.62 6.19C2.3 4.4-1.35 4.8-3.3 3.15Z" fill="url(#val-garland-rose)" stroke="#7b304c" stroke-width=".81"/>
+    <path d="M-1.55-2.15 1.5-2.3" stroke="#f1b1b3" stroke-width=".71" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(21 46) rotate(-14) scale(0.6)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(120 40) rotate(8) scale(0.49)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(186 42) rotate(11) scale(0.52)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(277 44) rotate(7) scale(0.59)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+</svg>

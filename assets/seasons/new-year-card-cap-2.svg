@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 34" preserveAspectRatio="none" fill="none" aria-hidden="true">
+  <path d="M10 24c37-1 56-13 93-10 28 2 39 12 65 10 13-1 21-3 27-5m10 0c9 3 19 5 31 5 23 0 36-8 61-10 37-3 56 9 93 10" stroke="#a98752" stroke-width="1.04" stroke-linecap="round" opacity="0.78"/>
+  <path d="M53 21c12-3 24-8 42-6 8 1 10 8 3 10-5 1-8-2-5-4m254 0c-12-3-24-8-42-6-8 1-10 8-3 10 5 1 8-2 5-4" stroke="#7d9ba9" stroke-width="0.88" stroke-linecap="round" opacity="0.81"/>
+  <path d="M146 25c14 7 40 2 54-7 14 9 40 14 54 7" stroke="#567694" stroke-width="0.92" stroke-linecap="round" opacity="0.74"/>
+  <g transform="translate(200 13.1) rotate(0) scale(1.73)">
+    <path d="M0-5C.5-1.6 1.4-.6 4 0 1.4.6.5 1.6 0 5-.5 1.6-1.4.6-4 0-1.4-.6-.5-1.6 0-5Z" fill="#c39c55"/>
+  </g>
+  <g transform="translate(168 12) rotate(-10) scale(0.93)">
+    <path d="M0-5C.5-1.6 1.4-.6 4 0 1.4.6.5 1.6 0 5-.5 1.6-1.4.6-4 0-1.4-.6-.5-1.6 0-5Z" fill="#7b98ad"/>
+  </g>
+  <g transform="translate(232 12) rotate(10) scale(0.93)">
+    <path d="M0-5C.5-1.6 1.4-.6 4 0 1.4.6.5 1.6 0 5-.5 1.6-1.4.6-4 0-1.4-.6-.5-1.6 0-5Z" fill="#7b98ad"/>
+  </g>
+  <g transform="translate(124 10) rotate(15) scale(0.64)">
+    <path d="M0-5C.5-1.6 1.4-.6 4 0 1.4.6.5 1.6 0 5-.5 1.6-1.4.6-4 0-1.4-.6-.5-1.6 0-5Z" fill="#c2a067"/>
+  </g>
+  <g transform="translate(276 10) rotate(-15) scale(0.64)">
+    <path d="M0-5C.5-1.6 1.4-.6 4 0 1.4.6.5 1.6 0 5-.5 1.6-1.4.6-4 0-1.4-.6-.5-1.6 0-5Z" fill="#c2a067"/>
+  </g>
+  <circle cx="40" cy="20.3" r="0.68" fill="#bd9a61"/>
+  <circle cx="136" cy="19.0" r="0.91" fill="#7d98a9"/>
+  <circle cx="263" cy="19.65" r="0.68" fill="#bd9a61"/>
+  <circle cx="360" cy="20.3" r="0.91" fill="#7d98a9"/>
+  <circle cx="178" cy="11.0" r="0.68" fill="#bd9a61"/>
+  <circle cx="222" cy="11.65" r="0.91" fill="#7d98a9"/>
+  <circle cx="64" cy="25.3" r="0.68" fill="#bd9a61"/>
+  <circle cx="336" cy="24.0" r="0.91" fill="#7d98a9"/>
+</svg>

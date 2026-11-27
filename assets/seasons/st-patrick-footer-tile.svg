@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="56" viewBox="0 0 216 56" role="img" aria-labelledby="st-patrick-footer-tile-title st-patrick-footer-tile-description">
+  <title id="st-patrick-footer-tile-title">St Patrick’s Day footer tile</title>
+  <desc id="st-patrick-footer-tile-description">A shamrock, a golden harp and a mitre with a crozier in a repeating row.</desc>
+  <g data-emblem="shamrock" transform="translate(36 28) rotate(-5) scale(0.7 0.7) translate(-36 -36)">
+    <path fill="none" stroke="#317351" stroke-width="2.7" stroke-linecap="round" d="M36 36c4.5 8.6 2.9 21.6-6.6 29"/>
+    <path fill="#428353" stroke="#286247" stroke-width=".85" d="M36 37C28 32 20.1 21.6 23 13.5c2.1-6 9.2-6.3 13-1.2 4.4-5.2 11.4-4.4 13.6 1.3 3.2 8.2-5.1 18.8-13.6 23.4Z"/>
+    <path fill="#5c9861" stroke="#286247" stroke-width=".85" d="M35.7 36.8c-5.8 7.9-17.9 15.2-25.3 11.4-5.3-2.8-4.6-10.5 1.5-13.5-4-5.2-1.2-11.7 5-12.2 8.6-.7 16.4 7.2 18.8 14.3Z"/>
+    <path fill="#347d55" stroke="#286247" stroke-width=".85" d="M36.1 37c2.9-8.1 11.1-15.9 19.5-15.1 6.4.6 8.8 7.3 4.7 12.6 6.2 3.1 7.1 10.6 1.6 13.3-8 3.9-20.4-3.3-25.8-10.8Z"/>
+    <path d="M36 36.4c-.8-6.8-1.4-15-.1-20.1m-.4 20.7c-6.5 1.1-14.1.8-20.4-1.4m21.3 1.6c6.6 1.2 13.8.7 20.5-2.2" fill="none" stroke="#88ae78" stroke-width="1.25" stroke-linecap="round"/>
+  </g>
+  <g data-emblem="harp" transform="translate(108 27) rotate(0) scale(0.71 0.71) translate(-36 -36)">
+    <path fill="none" stroke="#aa8c55" stroke-width="1.1" stroke-linecap="round" d="M20.9 21.7v31.6m5.1-35.7v40.7m5-37.4v33.8m5.1-31V50m5.2-24.4v19.6m5-18.8v14.8m5.2-15v10.2m5-10.9v6.8"/>
+    <path fill="#b18b4b" stroke="#80633c" stroke-width="1.4" stroke-linejoin="round" d="M20.6 63.6C9.3 52.9 8.5 29 17.8 14.5c2-3.2 4.6-5.9 7.3-7.4 4.1 7 12.4 15.1 22.6 16 6.1.6 11.1-.6 16.1-2 2.4-.7 4 2.4 1.9 4.4L28.5 63.7l.3 3.4H17.5v-2.5Zm-2.1-9.8 4.5 5.4 35.3-32.5c-4.6 1.1-9.5 1.5-14.6.6-8.1-1.4-14.4-5.7-18.4-11.6-8.7 7.7-10.4 25.1-6.8 38.1Z"/>
+    <path fill="#d9b565" d="M16.1 46.2c-2.4-12.2.4-25.2 8.7-34l.4.7c-6.3 8.6-9.3 20.3-9.1 33.3Zm10.4 14.2 36.9-36.2.7.4-36 37.8Z"/>
+    <path d="M25.7 12.8c4.9 7 11.5 10.9 18 12.1" fill="none" stroke="#efe0a1" stroke-width=".9" stroke-linecap="round"/>
+    <path d="M20.8 64.9h5.3" fill="none" stroke="#e5c67b" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+  <g data-emblem="mitre-and-crozier" transform="translate(178 28) rotate(3) scale(0.7 0.7) translate(-36 -36)">
+    <path fill="none" stroke="#98743f" stroke-width="3.65" stroke-linecap="round" stroke-linejoin="round" d="M48 64 54.3 19c.7-5.4 4.4-8.7 8.7-8.2 4.9.7 6.8 5.4 5.7 9.3-.9 3.4-4.1 5-7 3.9-2.4-1-2.5-4.3-.5-5.4"/>
+    <path fill="none" stroke="#deb967" stroke-width="1.25" stroke-linecap="round" d="m48.3 61.8 6-42c.9-5.3 4.2-7.7 8.3-7.5 3.1.2 5.3 3.4 4.9 6.4"/>
+    <path fill="#346856" d="M20.6 45.5c1.5 8.8 1.6 13.8-1.6 20.1l5.9-1.4c3.9-6.7 3.5-13.2 2.9-18.7Zm10.4.2c1.7 7.1 4.2 11.9 8.8 17l5.4-.8c-4.7-5.3-7.6-10.1-8.5-17.1Z"/>
+    <path fill="#f4e8ca" stroke="#846d48" stroke-width="1.35" stroke-linejoin="round" d="M13.5 46.5c.7-9.6 4.9-21.8 14.8-33.2 9.4 8.1 16.9 22 17.8 33-7.7 5.1-24.1 5.3-32.6.2Z"/>
+    <path fill="#e0cfa7" d="M28.3 15.7c9.1 10.3 13.6 20.4 16 29.3l-6 2.2C38 36.4 34.4 24.6 28.3 15.7Z"/>
+    <path fill="#43836a" d="M26.9 16.2 28.3 14l2.5 2.3v26.3l-4.1.1Zm-12.6 24c8.1 3.9 21.9 3.9 30.5-.1l1 6c-8.3 4.9-23.3 4.8-32 .2Z"/>
+    <path d="M16 44.8c8.3 3.2 20.9 3.1 27.7-.2" fill="none" stroke="#d8b665" stroke-width="1.1" stroke-linecap="round"/>
+    <path fill="#d8b665" d="m28.8 29-3.9 5 4 4.6 3.6-4.7Z"/>
+  </g>
+</svg>

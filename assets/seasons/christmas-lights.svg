@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 72" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="lights-cranberry-glass" cx=".32" cy=".33" r=".78"><stop offset="0" stop-color="#fff0c7"/><stop offset=".32" stop-color="#df6970"/><stop offset=".70" stop-color="#b73649"/><stop offset="1" stop-color="#702636"/></radialGradient>
+    <radialGradient id="lights-cranberry-glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#df6970" stop-opacity=".23"/><stop offset=".48" stop-color="#df6970" stop-opacity=".12"/><stop offset="1" stop-color="#df6970" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lights-pine-glass" cx=".32" cy=".33" r=".78"><stop offset="0" stop-color="#ebefb5"/><stop offset=".32" stop-color="#8cbd7c"/><stop offset=".70" stop-color="#4c885d"/><stop offset="1" stop-color="#254c43"/></radialGradient>
+    <radialGradient id="lights-pine-glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8cbd7c" stop-opacity=".23"/><stop offset=".48" stop-color="#8cbd7c" stop-opacity=".12"/><stop offset="1" stop-color="#8cbd7c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lights-gold-glass" cx=".32" cy=".33" r=".78"><stop offset="0" stop-color="#fff9d8"/><stop offset=".32" stop-color="#ffd477"/><stop offset=".70" stop-color="#d99e41"/><stop offset="1" stop-color="#945b38"/></radialGradient>
+    <radialGradient id="lights-gold-glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffd477" stop-opacity=".23"/><stop offset=".48" stop-color="#ffd477" stop-opacity=".12"/><stop offset="1" stop-color="#ffd477" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lights-blue-glass" cx=".32" cy=".33" r=".78"><stop offset="0" stop-color="#e2eff8"/><stop offset=".32" stop-color="#719dc2"/><stop offset=".70" stop-color="#3d648e"/><stop offset="1" stop-color="#263754"/></radialGradient>
+    <radialGradient id="lights-blue-glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#719dc2" stop-opacity=".23"/><stop offset=".48" stop-color="#719dc2" stop-opacity=".12"/><stop offset="1" stop-color="#719dc2" stop-opacity="0"/></radialGradient>
+    <linearGradient id="lights-brass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#86765e"/><stop offset=".46" stop-color="#b5a385"/><stop offset="1" stop-color="#6e6a58"/></linearGradient>
+  </defs>
+  <ellipse cx="50" cy="42" rx="22" ry="23" fill="url(#lights-cranberry-glow)"/>
+  <ellipse cx="120" cy="45" rx="22" ry="23" fill="url(#lights-pine-glow)"/>
+  <ellipse cx="190" cy="39" rx="22" ry="23" fill="url(#lights-gold-glow)"/>
+  <ellipse cx="260" cy="43" rx="22" ry="23" fill="url(#lights-blue-glow)"/>
+  <ellipse cx="330" cy="47" rx="22" ry="23" fill="url(#lights-cranberry-glow)"/>
+  <ellipse cx="400" cy="40" rx="22" ry="23" fill="url(#lights-pine-glow)"/>
+  <ellipse cx="470" cy="41" rx="22" ry="23" fill="url(#lights-gold-glow)"/>
+  <ellipse cx="540" cy="46" rx="22" ry="23" fill="url(#lights-blue-glow)"/>
+  <ellipse cx="610" cy="41" rx="22" ry="23" fill="url(#lights-cranberry-glow)"/>
+  <ellipse cx="680" cy="40" rx="22" ry="23" fill="url(#lights-pine-glow)"/>
+  <ellipse cx="750" cy="46" rx="22" ry="23" fill="url(#lights-gold-glow)"/>
+  <ellipse cx="820" cy="43" rx="22" ry="23" fill="url(#lights-blue-glow)"/>
+  <ellipse cx="870" cy="40.7" rx="22" ry="23" fill="url(#lights-cranberry-glow)"/>
+  <path d="M0 16 C16.67 16 33.33 18 50 18 C73.33 18 96.67 21 120 21 C143.33 21 166.67 15 190 15 C213.33 15 236.67 19 260 19 C283.33 19 306.67 23 330 23 C353.33 23 376.67 16 400 16 C423.33 16 446.67 17 470 17 C493.33 17 516.67 22 540 22 C563.33 22 586.67 17 610 17 C633.33 17 656.67 16 680 16 C703.33 16 726.67 22 750 22 C773.33 22 796.67 19 820 19 C836.67 19 853.33 16.7 870 16.7 C880.00 16.7 890.00 16 900 16" stroke="#344b42" stroke-width="2.3" fill="none"/>
+  <path d="M0 16 C16.67 16 33.33 18 50 18 C73.33 18 96.67 21 120 21 C143.33 21 166.67 15 190 15 C213.33 15 236.67 19 260 19 C283.33 19 306.67 23 330 23 C353.33 23 376.67 16 400 16 C423.33 16 446.67 17 470 17 C493.33 17 516.67 22 540 22 C563.33 22 586.67 17 610 17 C633.33 17 656.67 16 680 16 C703.33 16 726.67 22 750 22 C773.33 22 796.67 19 820 19 C836.67 19 853.33 16.7 870 16.7 C880.00 16.7 890.00 16 900 16" stroke="#748776" stroke-width=".55" fill="none" transform="translate(0 -.38)"/>
+  <g transform="translate(50 18) rotate(-10)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-cranberry-glass)" stroke="#702636" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff0c7" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#df6970" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(120 21) rotate(5)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-pine-glass)" stroke="#254c43" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#ebefb5" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#8cbd7c" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(190 15) rotate(-6)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-gold-glass)" stroke="#945b38" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff9d8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#ffd477" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(260 19) rotate(9)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-blue-glass)" stroke="#263754" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#e2eff8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#719dc2" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(330 23) rotate(-6)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-cranberry-glass)" stroke="#702636" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff0c7" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#df6970" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(400 16) rotate(6)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-pine-glass)" stroke="#254c43" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#ebefb5" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#8cbd7c" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(470 17) rotate(-8)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-gold-glass)" stroke="#945b38" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff9d8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#ffd477" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(540 22) rotate(6)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-blue-glass)" stroke="#263754" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#e2eff8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#719dc2" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(610 17) rotate(-5)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-cranberry-glass)" stroke="#702636" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff0c7" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#df6970" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(680 16) rotate(7)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-pine-glass)" stroke="#254c43" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#ebefb5" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#8cbd7c" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(750 22) rotate(-7)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-gold-glass)" stroke="#945b38" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff9d8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#ffd477" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(820 19) rotate(5)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-blue-glass)" stroke="#263754" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#e2eff8" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#719dc2" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+  <g transform="translate(870 16.7) rotate(-6)">
+    <path d="M-1.6-2.6c2-1.4 4.4.7 4.2 2.7L2.2 3h-4.5V-.8c0-.8.3-1.5.7-1.8Z" fill="#3b534a"/>
+    <path d="M-4.65 8.6H4.65c.25 4.6 3.85 8.2 4.75 13.3 1.25 7.2-3.2 13-9.4 17.2-6.2-4.2-10.65-10-9.4-17.2.9-5.1 4.5-8.7 4.75-13.3Z" fill="url(#lights-cranberry-glass)" stroke="#702636" stroke-width=".85"/>
+    <path d="M-4.5 15.5c-2.6 3.1-3.8 6.8-3.2 10.4.3 1.9 1.3 2.6 2.1 2.2 1.3-.6.6-3.5 1.3-5.7.8-2.4 2.4-5 1.7-6.2-.3-.7-1.1-.9-1.9-.7Z" fill="#fff0c7" opacity=".69"/>
+    <path d="M2.8 35.6c3.3-2.9 5.2-6.6 5.2-9.8" fill="none" stroke="#df6970" stroke-width=".8" stroke-opacity=".8" stroke-linecap="round"/>
+    <path d="M-5.7 2.2h11.4v7.6q-5.7 2.1-11.4 0Z" fill="url(#lights-brass)" stroke="#5f594e" stroke-width=".68" stroke-linejoin="round"/>
+    <path d="M-4.1 4.6h8.2m-8.2 2.5h8.2" stroke="#e1cbb1" stroke-opacity=".62" stroke-width=".72" stroke-linecap="round"/>
+    <path d="M-4.9 9.7q4.9 1.6 9.8 0" fill="none" stroke="#534d46" stroke-width=".85"/>
+  </g>
+</svg>

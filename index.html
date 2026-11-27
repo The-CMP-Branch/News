@@ -7,8 +7,8 @@ body_class: home
 {% include tag-icons.svg %}
 
 <section class="news-list">
-    {% if site.posts.size > 0 %}
-        {% for post in site.posts %}
+    {% if paginator.total_posts > 0 %}
+        {% for post in paginator.posts %}
         <article class="news-item">
             <div class="news-item-header">
                 <div class="news-item-dots">
@@ -56,3 +56,23 @@ body_class: home
         <p class="no-posts">No news articles yet. Check back soon!</p>
     {% endif %}
 </section>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="Article pages">
+    <div class="pagination-prev">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+        {% else %}
+        <span class="pagination-disabled">← Newer</span>
+        {% endif %}
+    </div>
+    <p class="pagination-status">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+    <div class="pagination-next">
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+        {% else %}
+        <span class="pagination-disabled">Older →</span>
+        {% endif %}
+    </div>
+</nav>
+{% endif %}

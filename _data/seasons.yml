@@ -13,15 +13,28 @@
 - id: newyear
   start: "12-27"
   end: "01-03"
-  header: "newyear-garland.svg"
-  news: "newyear-lights.svg"
-  footer: "newyear-footer.svg"
+  header: "new-year-garland.svg"
+  news: "new-year-fireworks.svg"
+  footer: "new-year-footer.svg"
 - id: valentines
   start: "02-10"
   end: "02-14"
   header: "valentines-garland.svg"
   news: "valentines-lights.svg"
   footer: "valentines-footer.svg"
+# Patron saints — flora & creatures only (no national flags / crosses / saltires)
+- id: stdavid
+  start: "02-28"
+  end: "03-02"
+  header: "st-david-header-footer-tile.svg"
+  news: "st-david-news-strip.svg"
+  footer: "st-david-header-footer-tile.svg"
+- id: stpatrick
+  start: "03-15"
+  end: "03-17"
+  header: "st-patrick-footer-tile.svg"
+  news: "st-patrick-news-strip.svg"
+  footer: "st-patrick-footer-tile.svg"
 - id: easter
   header: "easter-garland.svg"
   news: "easter-lights.svg"
@@ -37,6 +50,13 @@
     - { start: "2033-04-13", end: "2033-04-20" }  # Easter 2033-04-17
     - { start: "2034-04-05", end: "2034-04-12" }  # Easter 2034-04-09
     - { start: "2035-03-21", end: "2035-03-28" }  # Easter 2035-03-25
+# After Easter so Easter wins on rare April overlap years (e.g. 2030)
+- id: stgeorge
+  start: "04-22"
+  end: "04-24"
+  header: "st-george-footer-tile.svg"
+  news: "st-george-news-strip.svg"
+  footer: "st-george-footer-tile.svg"
 - id: halloween
   start: "10-24"
   end: "10-31"
@@ -53,5 +73,11 @@
   start: "11-08"
   end: "11-11"
   header: "remembrance-footer.svg"
-  news: "remembrance-silhouettes.png"
+  news: "remembrance-silhouettes.svg"
   footer: "remembrance-footer.svg"
+- id: standrew
+  start: "11-28"
+  end: "11-30"
+  header: "st-andrew-footer-tile.svg"
+  news: "st-andrew-news-strip.svg"
+  footer: "st-andrew-footer-tile.svg"

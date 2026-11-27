@@ -1,6 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 36" fill="none" aria-hidden="true">
-  <path d="M50 12 C50 7,56 4,60 9 C64 4,70 7,70 12 C70 20,60 28,60 28 C60 28,50 20,50 12z" fill="#e85a7a"/>
-  <path d="M140 8 C140 3,148 0,154 6 C160 0,168 3,168 8 C168 19,154 30,154 30 C154 30,140 19,140 8z" fill="#c41e3a"/>
-  <path d="M230 14 C230 10,235 7,238 11 C241 7,246 10,246 14 C246 20,238 26,238 26 C238 26,230 20,230 14z" fill="#f4a6b8"/>
-  <path d="M310 9 C310 4,317 1,322 6 C327 1,334 4,334 9 C334 19,322 29,322 29 C322 29,310 19,310 9z" fill="#9b1b30"/>
+  <defs>
+    <radialGradient id="val-cap-2-ruby" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#ffdfc7"/><stop offset=".26" stop-color="#db727e"/><stop offset=".69" stop-color="#ba3c56"/><stop offset="1" stop-color="#7c283e"/></radialGradient>
+    <radialGradient id="val-cap-2-rose" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff0d9"/><stop offset=".26" stop-color="#f0a5a9"/><stop offset=".69" stop-color="#d06a81"/><stop offset="1" stop-color="#993f5c"/></radialGradient>
+    <radialGradient id="val-cap-2-wine" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#f4d1bb"/><stop offset=".26" stop-color="#b46279"/><stop offset=".69" stop-color="#8e3656"/><stop offset="1" stop-color="#55263b"/></radialGradient>
+    <radialGradient id="val-cap-2-blush" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff5e2"/><stop offset=".26" stop-color="#f7cfc0"/><stop offset=".69" stop-color="#e3a2a4"/><stop offset="1" stop-color="#ae657c"/></radialGradient>
+  </defs>
+  <path d="M24 23c9-2 15-11 23-10m309 0c8-1 14 8 23 10m-284-2c12 6 22 7 32-2m142 1c10 9 20 8 32 2" stroke="#aa7d76" stroke-width=".84" stroke-opacity=".82" stroke-linecap="round"/>
+  <g transform="translate(60 17) rotate(-18) scale(0.55)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-cap-2-rose)" stroke="#993f5c" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#993f5c" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#fff0d9" opacity=".73"/>
+    <path d="M0 14.7C-1.1 9.5-4.8 5.6-9.2 5.25c-3.1-.3-3.25-4.2-.45-4.6 2.4-.38 3.5 1.7 3.44 3.4m6.21 10.65C1.1 9.5 4.8 5.6 9.2 5.25c3.1-.3 3.25-4.2.45-4.6-2.4-.38-3.5 1.7-3.44 3.4" stroke="#ecd1a4" stroke-width=".85" stroke-linecap="round"/><path d="M0 1.8c.55 2.1 1.4 3 3.2 3.55C1.4 5.9.55 6.8 0 8.9-.55 6.8-1.4 5.9-3.2 5.35-1.4 4.8-.55 3.9 0 1.8Z" fill="#f6dcb3"/>
+  </g>
+  <g transform="translate(154 15) rotate(8) scale(0.75)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-cap-2-ruby)" stroke="#7c283e" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#7c283e" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#ffdfc7" opacity=".73"/>
+    <path d="M0-5.35C-5.8-13.25-14.1-11.3-14.7-5.5c-.8 7.7 6.9 15.5 14.7 21 7.8-5.5 15.5-13.3 14.7-21C14.1-11.3 5.8-13.25 0-5.35Z" stroke="#efcf9c" stroke-opacity=".87" stroke-width=".8"/><path d="M-7.5 3.6c4.1-1.1 6-3.3 7.5-7.4 1.5 4.1 3.4 6.3 7.5 7.4-4.1 1.1-6 3.3-7.5 7.4-1.5-4.1-3.4-6.3-7.5-7.4Z" fill="#efd6a7"/><circle cx="0" cy="3.6" r="1.15" fill="#9e5470"/>
+  </g>
+  <g transform="translate(238 18) rotate(-14) scale(0.48)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-cap-2-blush)" stroke="#ae657c" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#ae657c" opacity=".31"/>
+
+    <path d="M0-8.15c-6.9-9-15.6-7.2-17.7 1.7C-12.7-8.5-7.8-5.6 0 3.6c8-8.7 12.9-12 17.7-10.05-2.1-8.9-10.8-10.7-17.7-1.7Z" fill="#fff3df" opacity=".35"/><path d="M-15.1-.8q7 2.8 15.1 16.9Q8.4 2 15.1-.8M-10.8 1.4Q-4.1 7.5 0 15.9 4.1 7.5 10.8 1.4M0-7.1v16" stroke="#8f435b" stroke-width=".68" opacity=".46" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(322 15) rotate(13) scale(0.71)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-cap-2-wine)" stroke="#55263b" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#55263b" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#f4d1bb" opacity=".73"/>
+    <path d="M0 14.7C-1.1 9.5-4.8 5.6-9.2 5.25c-3.1-.3-3.25-4.2-.45-4.6 2.4-.38 3.5 1.7 3.44 3.4m6.21 10.65C1.1 9.5 4.8 5.6 9.2 5.25c3.1-.3 3.25-4.2.45-4.6-2.4-.38-3.5 1.7-3.44 3.4" stroke="#ecd1a4" stroke-width=".85" stroke-linecap="round"/><path d="M0 1.8c.55 2.1 1.4 3 3.2 3.55C1.4 5.9.55 6.8 0 8.9-.55 6.8-1.4 5.9-3.2 5.35-1.4 4.8-.55 3.9 0 1.8Z" fill="#f6dcb3"/>
+  </g>
+  <g transform="translate(26 15) rotate(7) scale(0.65)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(108 13) rotate(11) scale(0.56)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(199 14) rotate(15) scale(0.65)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(272 12) rotate(19) scale(0.56)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(373 15) rotate(23) scale(0.65)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <circle cx="78" cy="16" r=".78" fill="#be8c86"/>
+  <circle cx="139" cy="23" r=".78" fill="#be8c86"/>
+  <circle cx="179" cy="20" r=".78" fill="#be8c86"/>
+  <circle cx="226" cy="23" r=".78" fill="#be8c86"/>
+  <circle cx="262" cy="21" r=".78" fill="#be8c86"/>
+  <circle cx="313" cy="17" r=".78" fill="#be8c86"/>
+  <circle cx="346" cy="26" r=".78" fill="#be8c86"/>
 </svg>

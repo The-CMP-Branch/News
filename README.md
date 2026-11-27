@@ -49,7 +49,7 @@ Visit `http://localhost:4000/News/` in your browser to preview.
 
 ### Seasonal decorations
 
-Set `season_override` in `_config.yml` to a season id (for example `"christmas"`) to force that look on while previewing. Clear it to `""` before merging so the live site follows the date windows in `_data/seasons.yml`.
+Set `season_override` in `_config.yml` to a season id (for example `"christmas"`, `"stdavid"`, `"stpatrick"`, `"stgeorge"`, `"standrew"`) to force that look on while previewing. Clear it to `""` before merging so the live site follows the date windows in `_data/seasons.yml`.
 
 ## Adding a News Article
 

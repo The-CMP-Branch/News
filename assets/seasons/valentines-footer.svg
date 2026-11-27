@@ -1,29 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
-  <!-- Ribbon - seamless -->
-  <path d="M0 30 C 50 22, 100 38, 150 28 S 250 22, 300 30"
-        stroke="#e85a7a" stroke-width="3" stroke-linecap="round"/>
-  <path d="M0 34 C 60 42, 110 24, 160 36 S 250 40, 300 34"
-        stroke="#c41e3a" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-
-  <!-- Rose bloom -->
-  <g transform="translate(45,22)">
-    <circle cx="0" cy="8" r="10" fill="#c41e3a"/>
-    <circle cx="-4" cy="5" r="5" fill="#e85a7a"/>
-    <circle cx="4" cy="6" r="4.5" fill="#9b1b30"/>
-    <circle cx="0" cy="10" r="3.5" fill="#f4a6b8"/>
-    <path d="M0 18 L-2 32 M0 18 L3 30" stroke="#1e8f45" stroke-width="2" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="val-footer-ruby" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#ffdfc7"/><stop offset=".26" stop-color="#db727e"/><stop offset=".69" stop-color="#ba3c56"/><stop offset="1" stop-color="#7c283e"/></radialGradient>
+    <radialGradient id="val-footer-rose" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff0d9"/><stop offset=".26" stop-color="#f0a5a9"/><stop offset=".69" stop-color="#d06a81"/><stop offset="1" stop-color="#993f5c"/></radialGradient>
+    <radialGradient id="val-footer-wine" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#f4d1bb"/><stop offset=".26" stop-color="#b46279"/><stop offset=".69" stop-color="#8e3656"/><stop offset="1" stop-color="#55263b"/></radialGradient>
+    <radialGradient id="val-footer-blush" cx=".33" cy=".23" r=".81"><stop offset="0" stop-color="#fff5e2"/><stop offset=".26" stop-color="#f7cfc0"/><stop offset=".69" stop-color="#e3a2a4"/><stop offset="1" stop-color="#ae657c"/></radialGradient>
+  </defs>
+  <path d="M0 31H7C22 31 37 34.65 64 31S112 25.8 147 31 195 36.5 221 31 256 26.3 277 31C282 31 286 31 293 31H300" stroke="#915469" stroke-width="2.75"/>
+  <path d="M0 31H7C22 31 37 34.65 64 31S112 25.8 147 31 195 36.5 221 31 256 26.3 277 31C282 31 286 31 293 31H300" stroke="#dc9fa5" stroke-width="1.62" transform="translate(0 -.31)"/>
+  <path d="M0 31H7C22 31 37 34.65 64 31S112 25.8 147 31 195 36.5 221 31 256 26.3 277 31C282 31 286 31 293 31H300" stroke="#f2c7b4" stroke-opacity=".74" stroke-width=".51" transform="translate(0 -.75)"/>
+  <g transform="translate(46 30) rotate(-12) scale(0.98)">
+    <path d="M-.8 5.8c3.3 9.6 3.35 16.2-2.8 25.3" stroke="#476c58" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1.45 18.7c-6.7-1.15-11.1-2.9-16.35-9.5 5.5.8 12.6 2.75 16.35 9.5Zm-.65 4.3c3.15-5.8 8.4-7.9 14.45-9.35-3.7 5.95-8.15 10.4-14.45 9.35Z" fill="#61816a" stroke="#486b5a" stroke-width=".75" stroke-linejoin="round"/>
+    <path d="M-11 11.7c3.05 2.34 7.25 4.22 11.8 6.58m12.2-2.64C9.15 17.72 5.62 20 1.68 22.27" stroke="#adc0a0" stroke-width=".58" stroke-linecap="round"/>
+    <path d="M-9.7 3.55 3.8 3.1l8.3-5.3C9.8 7.3 5.8 9.6 1.35 10.7c-4.55-1.15-8.38-1.98-11.05-7.15Z" fill="#52765e"/>
+    <path d="M-18.15-12.8c2.58-7.15 7.97-10.1 13.12-8.75 4.4-3.6 12.1-3.1 15.58.05 5.1.04 8.53 3.57 9.2 8.2 1.8 3.2.15 6.8-2 9.6-.95 7.1-9.15 12.2-16.75 12.33-9.42-.47-17.6-4.6-18.85-13.1-1.4-2.6-1.45-5.65-.3-8.33Z" fill="#a83a54" stroke="#7b3048" stroke-width="1.05"/>
+    <path d="M-18.02-12.4c5.5-1.55 11.45-.05 17.7 5.68-5.15-1.08-9.4-1.02-11.15 2.4.98 3.64 5.7 7.35 11.44 8.8-8.32.11-15.82-4.18-17.06-9.59-1.7-2.41-1.8-4.95-.93-7.3Z" fill="#ce7080"/>
+    <path d="M19.39-13.4c-4.2.5-9.1 2.5-13.3 6.5 5.35-.6 9.45.34 11.16 3.23-.75 3.1-4.6 7.08-11.25 8.65 8.82-1.15 13.12-5.55 13.5-10.25 1.35-2.34.65-6.32-.11-8.13Z" fill="#bd6174"/>
+    <path d="M-13.5-14.4c2.43-4.06 5.82-5.75 10.18-5.85 5.12-2.83 10.52-1.9 13.77 1.23 2.82.23 4.32 1.26 6 3.88C10.75-16.2 6.08-13.78 1.45-8.2c-5.16-3.65-9.93-5.17-14.95-6.2Z" fill="#df8790"/>
+    <path d="M-8.15-14.33c2.84-2.6 7.01-3.2 12.62-1.72-3.1.26-5.51 1.78-6.06 3.97 2.9-1.92 5.54-2.12 8.03-.78-2.6.82-4.25 2.45-5.64 4.32-4.53-2.4-7.0-3.92-8.95-5.79Z" fill="#842e4b"/>
+    <path d="M-10.6-3.44C-8.2-5.65-4.42-5.5.25-3.5c6-2.5 10.7-1.66 14.05 1.92C10.87 3.7 6.36 6.6.94 6.75-4.05 6.6-8.43 3.36-10.6-3.44Z" fill="#bc5068"/>
+    <path d="M-15.1-12.2c3.1.5 5.94 1.8 9.41 3.62m4.55-11.16c4.5-1 7.39.1 10.22 1.8m-17.05 16.6c3.0 1.86 5.1 2.4 8.84 2.42" stroke="#f4b5ad" stroke-width=".87" stroke-linecap="round" opacity=".7"/>
   </g>
-
-  <!-- Bow -->
-  <g transform="translate(150,24)">
-    <path d="M0 12 C-18 0,-22 18,-8 18 C-14 8,-6 4,0 12 C6 4,14 8,8 18 C22 18,18 0,0 12z" fill="#c41e3a"/>
-    <circle cx="0" cy="12" r="4" fill="#9b1b30"/>
-    <path d="M-2 16 L-4 36 M2 16 L4 36" stroke="#c41e3a" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(149 29) rotate(-4) scale(1.05)">
+    <path d="M-1.7 1.3C-5.8 6.1-8 16.8-13.6 22l5.65-1.1 2.4 3.5C-1.3 18.5-.7 12.5 1.9 6.8c3.7 5.3 7.8 9.7 10 15.1l2.2-4 5.7.65C13.1 12.7 9.65 5.6 3.3 1.7Z" fill="url(#val-footer-ruby)" stroke="#7b304b" stroke-width=".85" stroke-linejoin="round"/>
+    <path d="M-1.95 6.7c-2.7 4.7-3.8 10.1-7.2 14.4m13.15-14c4.2 4.7 7.65 9.25 9.15 12.58" stroke="#f2b6ac" stroke-opacity=".59" stroke-width=".77" stroke-linecap="round"/>
+    <path d="M-.5-2.6C-6.4-7.1-14.6-13.7-19.6-11.8c-2.9 1.1-3.45 5.55-3.3 10.55.15 4.5 1.34 7.6 4.5 7.2C-13.75 5.6-7.4 2.8.5.7Z" fill="url(#val-footer-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M.15-2.4c5.7-4.5 13.95-11 19.55-9.3 3.2.98 3.5 5.8 3.4 10.45-.1 4.6-1.35 7.7-4.4 7.25C14.3 5.4 7.6 2.8-.25.8Z" fill="url(#val-footer-rose)" stroke="#7d324f" stroke-width=".78"/>
+    <path d="M-16-3.7C-12.4-4.65-6.95-2.1-1.75-.2-8.8.1-14.65 1.55-17.35 2.8c1.35-1.74 3.8-3.1 6.3-3.45-2.25-.98-3.8-1.85-4.95-3.05Zm31.95 0C12.25-4.6 6.95-2.1 1.7-.2 9.05.1 14.65 1.55 17.35 2.8 16 1.06 13.55-.3 11.05-.65c2.25-.98 3.75-1.9 4.9-3.05Z" fill="#772d4b" fill-opacity=".6"/>
+    <path d="M-19.75-9.35c4.3-.8 10.45 2.68 14.65 5.15m10.2 0c4.2-2.47 10.3-5.9 14.4-5.2" stroke="#f4bbb3" stroke-opacity=".78" stroke-width=".93" stroke-linecap="round"/>
+    <path d="M-3.2-3.2c1.67-1.35 4.75-1.45 6.38-.26l.62 6.19C2.3 4.4-1.35 4.8-3.3 3.15Z" fill="url(#val-footer-rose)" stroke="#7b304c" stroke-width=".81"/>
+    <path d="M-1.55-2.15 1.5-2.3" stroke="#f1b1b3" stroke-width=".71" stroke-linecap="round"/>
   </g>
-
-  <!-- Small heart cluster -->
-  <g transform="translate(240,26)">
-    <path d="M-6 6 C-6 2,-2 0,0 3 C2 0,6 2,6 6 C6 12,0 18,0 18 C0 18,-6 12,-6 6z" fill="#e85a7a"/>
-    <path d="M10 10 C10 7,13 5,15 7 C17 5,20 7,20 10 C20 14,15 18,15 18 C15 18,10 14,10 10z" fill="#c41e3a"/>
+  <g transform="translate(258 31) rotate(17) scale(0.77)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-footer-wine)" stroke="#55263b" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#55263b" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#f4d1bb" opacity=".73"/>
+    <path d="M0 14.7C-1.1 9.5-4.8 5.6-9.2 5.25c-3.1-.3-3.25-4.2-.45-4.6 2.4-.38 3.5 1.7 3.44 3.4m6.21 10.65C1.1 9.5 4.8 5.6 9.2 5.25c3.1-.3 3.25-4.2.45-4.6-2.4-.38-3.5 1.7-3.44 3.4" stroke="#ecd1a4" stroke-width=".85" stroke-linecap="round"/><path d="M0 1.8c.55 2.1 1.4 3 3.2 3.55C1.4 5.9.55 6.8 0 8.9-.55 6.8-1.4 5.9-3.2 5.35-1.4 4.8-.55 3.9 0 1.8Z" fill="#f6dcb3"/>
+  </g>
+  <g transform="translate(240 33) rotate(-15) scale(0.9)">
+    <path d="M0-8.15C-6.8-18.3-17.6-14.8-18-5.7c-.8 10.2 8.5 18.1 18 25.4C9.5 12.4 18.8 4.5 18-5.7 17.6-14.8 6.8-18.3 0-8.15Z" fill="url(#val-footer-rose)" stroke="#993f5c" stroke-width=".92"/>
+    <path d="M-15-1.1c2.4 6.7 7.8 12.5 15 17.7 8-5.8 12.9-11.4 15-18-1.3 6.6-5.8 13.2-15 20.2-8.2-6.5-13.8-12.9-15-19.9Z" fill="#993f5c" opacity=".31"/>
+    <path d="M-13.8-6.9c.7-5 6.2-6.5 9.8-2.9.9.9.6 1.7-.3 1.9-1.4.2-4.8-1.4-6.2 2.2-.6 1.3-1.5 2.5-2.6 2-.9-.4-1-1.8-.7-3.2Z" fill="#fff0d9" opacity=".73"/>
+    <path d="M0-5.35C-5.8-13.25-14.1-11.3-14.7-5.5c-.8 7.7 6.9 15.5 14.7 21 7.8-5.5 15.5-13.3 14.7-21C14.1-11.3 5.8-13.25 0-5.35Z" stroke="#efcf9c" stroke-opacity=".87" stroke-width=".8"/><path d="M-7.5 3.6c4.1-1.1 6-3.3 7.5-7.4 1.5 4.1 3.4 6.3 7.5 7.4-4.1 1.1-6 3.3-7.5 7.4-1.5-4.1-3.4-6.3-7.5-7.4Z" fill="#efd6a7"/><circle cx="0" cy="3.6" r="1.15" fill="#9e5470"/>
+  </g>
+  <g transform="translate(21 50) rotate(7) scale(0.54)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(76 17) rotate(9) scale(0.65)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(101 45) rotate(2) scale(0.55)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(184 20) rotate(8) scale(0.6)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(208 47) rotate(-8) scale(0.6)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
+  </g>
+  <g transform="translate(282 21) rotate(3) scale(0.59)">
+    <path d="M0-5C.7-1.6 1.5-.7 4 0 1.5.7.7 1.6 0 5-.7 1.6-1.5.7-4 0-1.5-.7-.7-1.6 0-5Z" fill="#c09b66"/>
   </g>
 </svg>

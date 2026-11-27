@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="56" viewBox="0 0 216 56" role="img" aria-labelledby="st-andrew-footer-tile-title st-andrew-footer-tile-description">
+  <title id="st-andrew-footer-tile-title">St Andrew’s Day footer tile</title>
+  <desc id="st-andrew-footer-tile-description">A purple thistle, tartan bagpipes and a silver-blue fish in a repeating row.</desc>
+  <defs>
+    <clipPath id="st-andrew-footer-tile-pipe-bag"><path d="M26 33c7.4-6 17.1-4.7 21.4 2.6 3.6 6.1 2.5 13.9-3 18.3-6.6 5.2-18.7 6.8-26.4-1.4-5.4-5.7.2-13.5 8-19.5Z"/></clipPath>
+  </defs>
+  <g data-emblem="thistle" transform="translate(36 28) rotate(-6) scale(0.71 0.71) translate(-36 -36)">
+    <path fill="none" stroke="#476f62" stroke-width="2.6" stroke-linecap="round" d="M35 66c5-14 4.2-24 1.7-36"/>
+    <path fill="#3a6759" d="M37 57c-6.6.5-12.2-1.8-16-5.2l-4.9-.9 1.9-2.5-5.5-3.6 3.7-.5-4.3-6.2 6.6 2.6.5-3.4 4.4 5.2 2.7-2.4 2.5 5 3-.8c2.5 4.1 4 7.8 5.4 12.7Z"/>
+    <path fill="#547e68" d="M38 58c-.2-5.4 1.6-9.8 4.6-12.8l2 .7 3.5-4.7 1.1 2.1 5.8-5 1.3 2.8 5.9-2.1-3 5.6 2 .9-5.9 3.5.9 2.4-6.4 1.7.5 1.8C45.4 57 42 58 38 58Z"/>
+    <path fill="none" stroke="#8c9f80" stroke-width="1.1" stroke-linecap="round" d="M17.9 44c6 4 12.7 7.4 17 11.6m6 .2c4-4 9.3-7.3 15.3-11.2"/>
+    <path fill="#724579" d="M24 24.6 18.6 16l5 2.3-1.3-7.5 4.9 5.7-.6-9.1 5.4 7.2 1.4-10.1 4.2 9.1 3-9.5 2.3 10.9 4.4-7.7-.5 9.3 5-5.5-1.4 8.9 4.4-2.8-4.3 9.3Z"/>
+    <path fill="#a56ba5" d="m23.3 23.2 1.9-4.1 3 4.3.9-6.5 4.1 5.7 2.3-6.4 2.2 6.5 3.3-7.8 1.4 8 4-5.8.6 6.5 3.3-4.1-.7 6.4-25.4 1.3Z"/>
+    <path fill="#466d60" stroke="#3a5c54" stroke-width="1" d="M23.5 23.8c3.3.9 6.1 1 9.3-.4l4.4 2.6 4.3-2.9c3.1 2 6.3 1.7 9.5.7.4 10-5.8 15.8-13.7 16.2-7.7-.5-13.9-6.5-13.8-16.2Z"/>
+    <path fill="#779278" d="M25.9 26.1c2.7 1.7 4.7 2 6.7.7l3 3.4 3.4-3.5 3.1 2 5.9-2.4c-.4 5.8-4.1 10.2-10.7 11.6-6.4-1.2-10.4-5.2-11.4-11.8Z"/>
+    <path fill="none" stroke="#466d60" stroke-width="1.1" stroke-linecap="round" d="m28.6 30.6 3.4 2.2 1-2.4m1 5 3 1.9 2.7-2.2m1-3.8 2.3 1.6 2.7-2.6"/>
+  </g>
+  <g data-emblem="bagpipes" transform="translate(108 28) rotate(-5) scale(0.68 0.68) translate(-36 -36)">
+    <path d="M34 36 43 5.5M40 38 55 10.6M44 42l17.8-22.5M23 39 14.6 28.3l-5.3-.9M40 48l13.7 17" fill="none" stroke="#2c444e" stroke-width="4.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m42.5 5.5 2.6 1m9.6 4 2.3 1.2m4.2 7.1 2.6 1.5M13.1 27.9l-3.8-.5m44.4 37.7 2.1 1.6" fill="none" stroke="#b28f58" stroke-width="4.35" stroke-linecap="round"/>
+    <path d="m39 16.4 2.7.8m7.5 5 2.5 1.2m3.2 4.5 2.7 1.6m-12 25.8 2.3-1.8" fill="none" stroke="#e1c591" stroke-width="1.8" stroke-linecap="round"/>
+    <path fill="#49636b" d="M26 33c7.4-6 17.1-4.7 21.4 2.6 3.6 6.1 2.5 13.9-3 18.3-6.6 5.2-18.7 6.8-26.4-1.4-5.4-5.7.2-13.5 8-19.5Z"/>
+    <g clip-path="url(#st-andrew-footer-tile-pipe-bag)" fill="none">
+      <path stroke="#243f48" stroke-width="4" d="m15 43 24 19M23 34l27 22M32 28l24 19m-40 5 26-24M21 60l32-30M32 63l26-24"/>
+      <path stroke="#8e5c68" stroke-width="2.05" d="m15 43 24 19M23 34l27 22M32 28l24 19m-40 5 26-24M21 60l32-30M32 63l26-24"/>
+      <path stroke="#b9b6a0" stroke-width=".8" d="m12 47 24 19m-8-36 26 21M13 55l29-27m-5 35 22-21"/>
+    </g>
+    <path fill="none" stroke="#304a53" stroke-width="1.6" d="M26 33c7.4-6 17.1-4.7 21.4 2.6 3.6 6.1 2.5 13.9-3 18.3-6.6 5.2-18.7 6.8-26.4-1.4-5.4-5.7.2-13.5 8-19.5Z"/>
+    <path fill="none" stroke="#a8b5ac" stroke-width="1" stroke-linecap="round" d="M20.7 45.1c2.2-4.2 6.8-8.6 12.8-10.4"/>
+  </g>
+  <g data-emblem="fish" transform="translate(180 28) rotate(-12) scale(0.7 0.7) translate(-36 -36)">
+    <path fill="#5b7e90" d="M26.3 32.7c3.7-7.7 10.6-13.9 19-17.1-1.2 4.6-1.9 8.5-.1 13.2Zm5 10.3c4.8 3.8 9 7.4 16.7 8.8-2.8-4.3-3.8-7.9-4.8-12.4Zm16.7-8.2c7.9-3.4 13.3-9.2 20.2-10.9l-6.5 10.6c-1 1.6-.9 3.3.3 5l6.4 9.3c-7.9-1.9-12.8-7.7-21.5-9.9Z"/>
+    <path fill="#87a3ad" stroke="#4e7182" stroke-width="1.1" d="M6.3 35.1c8.9-9.6 22.4-11.1 32.2-8.7 6.7 1.6 11 4.6 17.7 8.1l.1 4.4c-8 2.1-14 6.5-24.5 7.2C20.4 47 10.6 42.3 6.3 37.2Z"/>
+    <path fill="#c7d3ce" d="M7.6 37c6.5 1.5 12 3.7 22.5 4.1 9 .4 15.8-2.2 23.5-3.1-8.4 3.9-13.8 6.9-23.2 7-8.7 0-16.6-3-22.8-8Z"/>
+    <path fill="#527487" d="M28.5 36.8c7.5-2.4 11.6-1.1 14.3.8-5.3 2.6-9.7 2.5-14.3-.8Z"/>
+    <path fill="none" stroke="#587c89" stroke-width="1.05" stroke-linecap="round" d="M19.4 32.2c2.1 1.9 2.4 5.3.8 7.4M8 36.3l5.3.8m37.7-3.6 7.4 1.3"/>
+    <circle cx="15.9" cy="33.6" r="1.7" fill="#324f60"/>
+    <circle cx="15.5" cy="33.2" r=".5" fill="#e9ece1"/>
+  </g>
+</svg>

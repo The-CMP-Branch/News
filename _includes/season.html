@@ -3,9 +3,17 @@
   {%- assign season = site.season_override -%}
 {%- else -%}
   {%- assign today_md = "now" | date: "%m-%d" -%}
+  {%- assign today_ymd = "now" | date: "%Y-%m-%d" -%}
   {%- for s in site.data.seasons -%}
     {%- assign in_window = false -%}
-    {%- if s.start <= s.end -%}
+    {%- if s.windows -%}
+      {%- for w in s.windows -%}
+        {%- if today_ymd >= w.start and today_ymd <= w.end -%}
+          {%- assign in_window = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- elsif s.start <= s.end -%}
       {%- if today_md >= s.start and today_md <= s.end -%}
         {%- assign in_window = true -%}
       {%- endif -%}

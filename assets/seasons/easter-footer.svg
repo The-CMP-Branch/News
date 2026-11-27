@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Grass line - seamless -->
+  <path d="M0 40 C 40 34, 80 46, 120 38 S 200 34, 240 42 S 280 36, 300 40"
+        stroke="#3d9a5f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M0 44 C 50 50, 100 36, 150 46 S 230 50, 280 40 S 295 44, 300 44"
+        stroke="#6bbf8a" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Bunny silhouette -->
+  <g transform="translate(50,18)" fill="#f5f0e6" stroke="#c4b89a" stroke-width="1">
+    <ellipse cx="0" cy="28" rx="14" ry="12"/>
+    <ellipse cx="-6" cy="8" rx="4" ry="12"/>
+    <ellipse cx="6" cy="8" rx="4" ry="12"/>
+    <circle cx="-5" cy="26" r="1.5" fill="#333" stroke="none"/>
+    <circle cx="5" cy="26" r="1.5" fill="#333" stroke="none"/>
+    <ellipse cx="0" cy="30" rx="3" ry="2" fill="#f7b5c8" stroke="none"/>
+  </g>
+
+  <!-- Nest with eggs -->
+  <g transform="translate(150,34)">
+    <ellipse cx="0" cy="16" rx="22" ry="8" fill="#8b6914" opacity="0.85"/>
+    <ellipse cx="-8" cy="10" rx="7" ry="9" fill="#b8dff0"/>
+    <ellipse cx="2" cy="8" rx="7" ry="9" fill="#f7b5c8"/>
+    <ellipse cx="10" cy="12" rx="6" ry="8" fill="#f6e28b"/>
+  </g>
+
+  <!-- Daffodil-ish flower -->
+  <g transform="translate(240,28)">
+    <circle cx="0" cy="8" r="5" fill="#f6e28b"/>
+    <g fill="#f0d060">
+      <ellipse cx="0" cy="-2" rx="4" ry="7"/>
+      <ellipse cx="7" cy="5" rx="4" ry="7" transform="rotate(60 7 5)"/>
+      <ellipse cx="4" cy="14" rx="4" ry="7" transform="rotate(120 4 14)"/>
+      <ellipse cx="-4" cy="14" rx="4" ry="7" transform="rotate(240 -4 14)"/>
+      <ellipse cx="-7" cy="5" rx="4" ry="7" transform="rotate(300 -7 5)"/>
+    </g>
+    <line x1="0" y1="16" x2="0" y2="32" stroke="#3d9a5f" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 36" fill="none" aria-hidden="true">
+  <g fill="#1B365D">
+    <rect x="0" y="20" width="40" height="16"/>
+    <rect x="4" y="16" width="3" height="5"/>
+    <rect x="12" y="16" width="3" height="5"/>
+    <rect x="20" y="16" width="3" height="5"/>
+    <rect x="28" y="16" width="3" height="5"/>
+    <!-- Big Ben left-of-centre -->
+    <rect x="48" y="2" width="16" height="34"/>
+    <rect x="45" y="-1" width="22" height="5"/>
+    <rect x="51" y="-8" width="10" height="9"/>
+    <polygon points="56,-12 48,-8 64,-8"/>
+    <rect x="70" y="18" width="90" height="18"/>
+    <rect x="76" y="12" width="4" height="7"/>
+    <rect x="88" y="12" width="4" height="7"/>
+    <rect x="100" y="12" width="4" height="7"/>
+    <rect x="112" y="12" width="4" height="7"/>
+    <rect x="124" y="12" width="4" height="7"/>
+    <rect x="136" y="12" width="4" height="7"/>
+    <rect x="148" y="12" width="4" height="7"/>
+    <!-- Victoria Tower -->
+    <rect x="168" y="6" width="18" height="30"/>
+    <rect x="165" y="2" width="24" height="5"/>
+    <polygon points="177,-2 165,2 189,2"/>
+    <rect x="194" y="20" width="60" height="16"/>
+    <rect x="200" y="15" width="3" height="5"/>
+    <rect x="210" y="15" width="3" height="5"/>
+    <rect x="220" y="15" width="3" height="5"/>
+    <rect x="230" y="15" width="3" height="5"/>
+    <rect x="240" y="15" width="3" height="5"/>
+    <!-- smaller spires -->
+    <rect x="262" y="10" width="10" height="26"/>
+    <polygon points="267,4 262,10 272,10"/>
+    <rect x="280" y="14" width="8" height="22"/>
+    <polygon points="284,8 280,14 288,14"/>
+    <rect x="296" y="18" width="56" height="18"/>
+    <rect x="302" y="13" width="3" height="5"/>
+    <rect x="312" y="13" width="3" height="5"/>
+    <rect x="322" y="13" width="3" height="5"/>
+    <rect x="332" y="13" width="3" height="5"/>
+    <rect x="342" y="13" width="3" height="5"/>
+    <rect x="360" y="8" width="14" height="28"/>
+    <rect x="358" y="5" width="18" height="4"/>
+    <polygon points="367,1 358,5 376,5"/>
+    <rect x="382" y="22" width="18" height="14"/>
+  </g>
+  <circle cx="56" cy="12" r="3.5" fill="#d4a574"/>
+  <circle cx="56" cy="12" r="2" fill="#1B365D"/>
+  <path d="M0 34 H400" stroke="#3a5a7a" stroke-width="1.5" opacity="0.45"/>
+  <g transform="translate(210,24)">
+    <ellipse cx="0" cy="2" rx="7" ry="2" fill="#6b4423"/>
+    <rect x="-7" y="2" width="14" height="8" fill="#8a5a2b"/>
+    <ellipse cx="0" cy="10" rx="7" ry="2" fill="#5c3a28"/>
+    <rect x="-7" y="4" width="14" height="1.5" fill="#c45c26"/>
+  </g>
+  <g transform="translate(320,24)">
+    <ellipse cx="0" cy="2" rx="7" ry="2" fill="#6b4423"/>
+    <rect x="-7" y="2" width="14" height="8" fill="#8a5a2b"/>
+    <ellipse cx="0" cy="10" rx="7" ry="2" fill="#5c3a28"/>
+    <rect x="-7" y="4" width="14" height="1.5" fill="#c45c26"/>
+  </g>
+</svg>

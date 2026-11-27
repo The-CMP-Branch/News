@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Solemn poppy cluster - no cord -->
+  <g transform="translate(50,18)">
+    <line x1="0" y1="24" x2="0" y2="48" stroke="#3d6b3a" stroke-width="2"/>
+    <path d="M0 30 C-10 28,-12 38,-2 40" fill="#3d6b3a"/>
+    <g fill="#c41e3a">
+      <ellipse cx="-9" cy="14" rx="10" ry="12" transform="rotate(-25 -9 14)"/>
+      <ellipse cx="9" cy="14" rx="10" ry="12" transform="rotate(25 9 14)"/>
+      <ellipse cx="0" cy="5" rx="10" ry="12"/>
+      <ellipse cx="-7" cy="20" rx="9" ry="11" transform="rotate(-50 -7 20)"/>
+      <ellipse cx="7" cy="20" rx="9" ry="11" transform="rotate(50 7 20)"/>
+    </g>
+    <circle cx="0" cy="16" r="5.5" fill="#1a1a1a"/>
+  </g>
+
+  <g transform="translate(150,12)">
+    <line x1="0" y1="28" x2="0" y2="52" stroke="#3d6b3a" stroke-width="2.2"/>
+    <path d="M0 34 C-12 32,-14 44,-2 46" fill="#3d6b3a"/>
+    <path d="M0 36 C12 34,14 44,2 46" fill="#3d6b3a"/>
+    <g fill="#b01030">
+      <ellipse cx="-11" cy="16" rx="12" ry="14" transform="rotate(-25 -11 16)"/>
+      <ellipse cx="11" cy="16" rx="12" ry="14" transform="rotate(25 11 16)"/>
+      <ellipse cx="0" cy="5" rx="12" ry="14"/>
+      <ellipse cx="-8" cy="24" rx="10" ry="12" transform="rotate(-50 -8 24)"/>
+      <ellipse cx="8" cy="24" rx="10" ry="12" transform="rotate(50 8 24)"/>
+    </g>
+    <circle cx="0" cy="18" r="6.5" fill="#1a1a1a"/>
+    <circle cx="0" cy="18" r="3" fill="#333"/>
+  </g>
+
+  <g transform="translate(250,18)">
+    <line x1="0" y1="24" x2="0" y2="48" stroke="#3d6b3a" stroke-width="2"/>
+    <path d="M0 30 C10 28,12 38,2 40" fill="#3d6b3a"/>
+    <g fill="#c41e3a">
+      <ellipse cx="-9" cy="14" rx="10" ry="12" transform="rotate(-25 -9 14)"/>
+      <ellipse cx="9" cy="14" rx="10" ry="12" transform="rotate(25 9 14)"/>
+      <ellipse cx="0" cy="5" rx="10" ry="12"/>
+      <ellipse cx="-7" cy="20" rx="9" ry="11" transform="rotate(-50 -7 20)"/>
+      <ellipse cx="7" cy="20" rx="9" ry="11" transform="rotate(50 7 20)"/>
+    </g>
+    <circle cx="0" cy="16" r="5.5" fill="#1a1a1a"/>
+  </g>
+</svg>

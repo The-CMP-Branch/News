@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 36" fill="none" aria-hidden="true">
+  <g transform="translate(40,6)">
+    <g fill="#c41e3a">
+      <ellipse cx="-6" cy="11" rx="7" ry="9" transform="rotate(-25 -6 11)"/>
+      <ellipse cx="6" cy="11" rx="7" ry="9" transform="rotate(25 6 11)"/>
+      <ellipse cx="0" cy="5" rx="7" ry="9"/>
+      <ellipse cx="-4" cy="15" rx="6" ry="8" transform="rotate(-50 -4 15)"/>
+      <ellipse cx="4" cy="15" rx="6" ry="8" transform="rotate(50 4 15)"/>
+    </g>
+    <circle cx="0" cy="12" r="3.6" fill="#1a1a1a"/>
+  </g>
+  <g transform="translate(130,4)">
+    <g fill="#b01030">
+      <ellipse cx="-8" cy="13" rx="9" ry="11" transform="rotate(-25 -8 13)"/>
+      <ellipse cx="8" cy="13" rx="9" ry="11" transform="rotate(25 8 13)"/>
+      <ellipse cx="0" cy="5" rx="9" ry="11"/>
+      <ellipse cx="-6" cy="19" rx="8" ry="10" transform="rotate(-50 -6 19)"/>
+      <ellipse cx="6" cy="19" rx="8" ry="10" transform="rotate(50 6 19)"/>
+    </g>
+    <circle cx="0" cy="14" r="4.8" fill="#1a1a1a"/>
+  </g>
+  <g transform="translate(240,6)">
+    <g fill="#c41e3a">
+      <ellipse cx="-7" cy="12" rx="8" ry="10" transform="rotate(-25 -7 12)"/>
+      <ellipse cx="7" cy="12" rx="8" ry="10" transform="rotate(25 7 12)"/>
+      <ellipse cx="0" cy="5" rx="8" ry="10"/>
+      <ellipse cx="-5" cy="17" rx="7" ry="9" transform="rotate(-50 -5 17)"/>
+      <ellipse cx="5" cy="17" rx="7" ry="9" transform="rotate(50 5 17)"/>
+    </g>
+    <circle cx="0" cy="13" r="4.2" fill="#1a1a1a"/>
+  </g>
+  <g transform="translate(350,5)">
+    <g fill="#b01030">
+      <ellipse cx="-7" cy="12" rx="8" ry="10" transform="rotate(-25 -7 12)"/>
+      <ellipse cx="7" cy="12" rx="8" ry="10" transform="rotate(25 7 12)"/>
+      <ellipse cx="0" cy="5" rx="8" ry="10"/>
+      <ellipse cx="-5" cy="17" rx="7" ry="9" transform="rotate(-50 -5 17)"/>
+      <ellipse cx="5" cy="17" rx="7" ry="9" transform="rotate(50 5 17)"/>
+    </g>
+    <circle cx="0" cy="13" r="4.2" fill="#1a1a1a"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" fill="none" aria-hidden="true">
+  <!-- Quiet row of poppies - no cord -->
+  <g transform="translate(50,20)">
+    <line x1="0" y1="20" x2="0" y2="44" stroke="#3d6b3a" stroke-width="2"/>
+    <g fill="#c41e3a">
+      <ellipse cx="-8" cy="12" rx="9" ry="11" transform="rotate(-25 -8 12)"/>
+      <ellipse cx="8" cy="12" rx="9" ry="11" transform="rotate(25 8 12)"/>
+      <ellipse cx="0" cy="4" rx="9" ry="11"/>
+      <ellipse cx="-6" cy="18" rx="8" ry="10" transform="rotate(-50 -6 18)"/>
+      <ellipse cx="6" cy="18" rx="8" ry="10" transform="rotate(50 6 18)"/>
+    </g>
+    <circle cx="0" cy="14" r="5" fill="#1a1a1a"/>
+    <circle cx="0" cy="14" r="2.5" fill="#333"/>
+  </g>
+
+  <g transform="translate(150,16)">
+    <line x1="0" y1="22" x2="0" y2="48" stroke="#3d6b3a" stroke-width="2"/>
+    <g fill="#b01030">
+      <ellipse cx="-9" cy="14" rx="10" ry="12" transform="rotate(-25 -9 14)"/>
+      <ellipse cx="9" cy="14" rx="10" ry="12" transform="rotate(25 9 14)"/>
+      <ellipse cx="0" cy="5" rx="10" ry="12"/>
+      <ellipse cx="-7" cy="20" rx="9" ry="11" transform="rotate(-50 -7 20)"/>
+      <ellipse cx="7" cy="20" rx="9" ry="11" transform="rotate(50 7 20)"/>
+    </g>
+    <circle cx="0" cy="16" r="5.5" fill="#1a1a1a"/>
+    <circle cx="0" cy="16" r="2.8" fill="#333"/>
+  </g>
+
+  <g transform="translate(250,20)">
+    <line x1="0" y1="20" x2="0" y2="44" stroke="#3d6b3a" stroke-width="2"/>
+    <g fill="#c41e3a">
+      <ellipse cx="-8" cy="12" rx="9" ry="11" transform="rotate(-25 -8 12)"/>
+      <ellipse cx="8" cy="12" rx="9" ry="11" transform="rotate(25 8 12)"/>
+      <ellipse cx="0" cy="4" rx="9" ry="11"/>
+      <ellipse cx="-6" cy="18" rx="8" ry="10" transform="rotate(-50 -6 18)"/>
+      <ellipse cx="6" cy="18" rx="8" ry="10" transform="rotate(50 6 18)"/>
+    </g>
+    <circle cx="0" cy="14" r="5" fill="#1a1a1a"/>
+    <circle cx="0" cy="14" r="2.5" fill="#333"/>
+  </g>
+</svg>

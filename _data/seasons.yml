@@ -49,3 +49,9 @@
   header: "guyfawkes-garland.svg"
   news: "guyfawkes-lights.svg"
   footer: "guyfawkes-footer.svg"
+- id: remembrance
+  start: "11-08"
+  end: "11-11"
+  header: "remembrance-footer.svg"
+  news: "remembrance-silhouettes.png"
+  footer: "remembrance-footer.svg"
